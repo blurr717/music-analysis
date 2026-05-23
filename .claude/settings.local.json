@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(file \"C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\Desktop\\\\\\\\daima\\\\\\\\chat-demo\\\\\\\\要求文件\")",
+      "Bash(wc -c \"C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\Desktop\\\\\\\\daima\\\\\\\\chat-demo\\\\\\\\要求文件\")",
+      "Bash(xxd \"C:\\\\\\\\Users\\\\\\\\Administrator\\\\\\\\Desktop\\\\\\\\daima\\\\\\\\chat-demo\\\\\\\\要求文件\")",
+      "Bash(pip install *)",
+      "Bash(LLM_API_KEY=sk-test python -m pytest tests/test_chat.py -v)",
+      "Bash(timeout 5 python -m uvicorn main:app --host 0.0.0.0 --port 8000)",
+      "Bash(python -m uvicorn main:app --host 127.0.0.1 --port 8000)",
+      "Bash(curl -s http://127.0.0.1:8000/docs -o /dev/null -w \"%{http_code}\")",
+      "Bash(curl -s http://127.0.0.1:8000/chat/history/test-1)",
+      "Bash(python -m json.tool)",
+      "Bash(taskkill //F //IM python.exe)",
+      "Bash(curl -s -N -X POST http://127.0.0.1:8000/chat -H \"Content-Type: application/json\" -d \"{\\\\\"message\\\\\":\\\\\"今天心情不好\\\\\"}\")",
+      "Bash(curl -s http://127.0.0.1:8000/history)",
+      "Bash(python app_gradio.py)",
+      "Bash(curl -s http://127.0.0.1:7860 -o /dev/null -w \"HTTP %{http_code}\\\\n\")",
+      "Bash(python *)",
+      "Bash(curl -s http://127.0.0.1:7860/gradio_api/info)",
+      "Bash(cmd *)",
+      "Bash(npm --version)",
+      "Bash(mkdir -p server)",
+      "Bash(npm init *)",
+      "Bash(npm create *)",
+      "Bash(npx create-vite@latest client --template react-ts)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(node *)",
+      "Bash(curl -s http://localhost:3001/api/chat -X POST -H \"Content-Type: application/json\" -d '{\"messages\":[{\"role\":\"user\",\"content\":\"hi\"}]}')",
+      "Bash(npx vite *)",
+      "Bash(git --version)",
+      "Bash(git config *)",
+      "Read(//c/Users/Administrator/**)",
+      "Read(//c/Users/Administrator/.ssh/**)",
+      "Bash(ssh-keygen *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(rm -rf \"/c/Windows/Temp\"/*)",
+      "Bash(echo \"Windows Temp exit: $?\")"
+    ]
+  }
+}
