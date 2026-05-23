@@ -25,7 +25,11 @@ Thumbs.db
 # Jupyter
 .ipynb_checkpoints/
 
-# 数据文件（如有大量音频/数据文件，可按需调整）
-# *.mp3
-# *.wav
-# *.dat
+# 音频文件（体积大，不纳入版本控制）
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.m4a
+*.aac
+*.wma
