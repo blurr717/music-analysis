@@ -88,13 +88,13 @@ def main():
 示例:
   python run-analysis.py "C:/Downloads/Camila Cabello - DREAM-GIRLS.mp3"
   python run-analysis.py song.mp3 --artist "Camila Cabello" --song-title "DREAM-GIRLS"
-  python run-analysis.py song.mp3 --no-copy --skip-curves
+  python run-analysis.py song.mp3 --copy --skip-curves
         """,
     )
     parser.add_argument("audio_file", help="音频文件路径 (mp3, wav, flac 等)")
     parser.add_argument("--artist", "-a", default=None, help="艺术家名称（默认从文件名自动推断）")
     parser.add_argument("--song-title", "-t", default=None, help="歌曲名称（默认从文件名自动提取）")
-    parser.add_argument("--no-copy", action="store_true", help="不复制原始音频到输出目录")
+    parser.add_argument("--copy", action="store_true", help="复制原始音频到输出目录（默认不复制）")
     parser.add_argument("--skip-summary", action="store_true", help="跳过能量/情绪综合分析")
     parser.add_argument("--skip-curves", action="store_true", help="跳过时间曲线分析")
     parser.add_argument("--output-dir", "-o", default=None, help="输出根目录 (默认: music-analysis/)")
@@ -137,8 +137,8 @@ def main():
         print(f"❌ 错误: 无法创建输出目录 {song_dir}: {e}", file=sys.stderr)
         sys.exit(4)
 
-    # ---- 5. 复制原始音频 ----
-    if not args.no_copy:
+    # ---- 5. 复制原始音频（仅当 --copy 时） ----
+    if args.copy:
         try:
             dst_file = song_dir / filepath.name
             if dst_file.exists() and dst_file.samefile(filepath):
@@ -148,8 +148,6 @@ def main():
                 print(f"✅ 音频已复制到: {dst_file}")
         except OSError as e:
             print(f"⚠ 警告: 文件复制失败 ({e})，继续进行分析...")
-    else:
-        print(f"ℹ 跳过文件复制 (--no-copy)")
 
     # ---- 6. 运行分析 ----
     results = {}
