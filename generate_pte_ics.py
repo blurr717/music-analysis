@@ -75,7 +75,8 @@ def format_dt(dt: datetime) -> str:
 def make_event(dt_start: datetime, dt_end: datetime, summary: str, description: str) -> str:
     """生成单个 VEVENT"""
     uid = str(uuid.uuid4())
-    now_utc = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+    from datetime import timezone as tz
+    now_utc = datetime.now(tz.utc).strftime("%Y%m%dT%H%M%SZ")
     return (
         "BEGIN:VEVENT\r\n"
         f"DTSTART;TZID={TIMEZONE}:{format_dt(dt_start)}\r\n"
@@ -119,130 +120,160 @@ def generate_ics() -> str:
 
         day_label = f"Day{day_num} ({date_str} {weekday})"
 
-        # 里程碑
         milestone = MILESTONES.get(day_num, "")
-        # 模考
         mock = MOCK_DAYS.get(day_num, "")
 
-        # ---- 事件1: 口语热身 14:00-15:00 ----
-        t1_start = plan_date.replace(hour=14, minute=0)
-        t1_end = plan_date.replace(hour=15, minute=0)
-        summary1 = f"🗣 口语热身 RA+RS | {day_label}"
-        desc1 = f"📌 {day_label}"
-        if milestone:
-            desc1 += f"\n{milestone}"
-        desc1 += "\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态"
-        lines.append(make_event(t1_start, t1_end, summary1, desc1))
-
-        # ---- 事件2: WFD + SWT 15:00-17:30 ----
-        t2_start = plan_date.replace(hour=15, minute=0)
-        t2_end = plan_date.replace(hour=17, minute=30)
-
+        # ================================================================
+        # 模考日 (Day 7, 14)
+        # ================================================================
         if mock:
-            summary2 = f"🧪 {mock} 模考 | {day_label}"
-            desc2 = f"📌 {day_label} - 模考日\n\n完整模考 3小时 (猩际/官方模考卷)\n模拟真实考试环境，中间不休息"
-            # 模考占用更长时间
-            t2_end = plan_date.replace(hour=18, minute=0)
-        elif day_num == 20:
-            summary2 = f"🔥 考前最后热身 | {day_label}"
-            desc2 = f"📌 {day_label} - 考前最后一天\n\nRA 3篇（轻度热身）\nRS 20句\n默念所有模板（DI/RL/SWT/SST/Essay）\n\n⚠️ 22:00前睡觉！"
-        else:
-            swt_label = f"SWT {swt}题" if swt > 0 else "SWT 错题回顾"
-            wfd_round = ""
-            if day_num <= 7:
-                wfd_round = " (一刷)"
-            elif day_num <= 14:
-                wfd_round = " (二刷)"
-            else:
-                wfd_round = " (三刷)"
-
-            summary2 = f"📝 WFD {wfd}题 + {swt_label} | {day_label}"
-            desc2 = f"📌 {day_label}"
-            if milestone:
-                desc2 += f"\n{milestone}"
-            desc2 += f"\n\nWFD (Write From Dictation) {wfd}题{wfd_round}\nSWT (Summarize Written Text) {swt_label}\n\n总进度: WFD {sum(p[0] for p in PLAN[:day_num])}/195{' ✓一刷' if day_num >= 8 else ''}"
-
-        lines.append(make_event(t2_start, t2_end, summary2, desc2))
-
-        # 模考日简化后续事件
-        if mock:
-            # 模考后：分析 + 轻量复习
-            t3_start = plan_date.replace(hour=18, minute=30)
-            t3_end = plan_date.replace(hour=20, minute=0)
-            summary3 = f"📊 模考分析 | {day_label}"
-            desc3 = f"📌 {day_label}\n\n逐题分析模考结果\n记录每模块得分和失分原因\n\nWFD {wfd}题 + SST {sst}题"
-            lines.append(make_event(t3_start, t3_end, summary3, desc3))
-
-            t4_start = plan_date.replace(hour=20, minute=30)
-            t4_end = plan_date.replace(hour=22, minute=0)
-            lines.append(make_event(t4_start, t4_end,
-                f"📖 阅读 + 模板保温 | {day_label}",
-                f"📌 {day_label}\n\nFIB-RW 8题 + RO 5题\nDI/RL 模板练习各3题\n错题复盘"))
-
-            t5_start = plan_date.replace(hour=22, minute=0)
-            t5_end = plan_date.replace(hour=22, minute=30)
-            lines.append(make_event(t5_start, t5_end,
+            # 14:00-14:30 热身
+            lines.append(make_event(
+                plan_date.replace(hour=14, minute=0),
+                plan_date.replace(hour=14, minute=30),
+                f"🗣 模考热身 RA+RS | {day_label}",
+                f"📌 {day_label} - {mock}\n\nRA 3篇（轻度）\nRS 20句\n\n准备进入模考状态"
+            ))
+            # 14:30-17:30 模考
+            lines.append(make_event(
+                plan_date.replace(hour=14, minute=30),
+                plan_date.replace(hour=17, minute=30),
+                f"🧪 {mock} 完整模考 | {day_label}",
+                f"📌 {day_label} - 模考日\n\n完整模考 3小时\n猩际/官方模考卷\n模拟真实环境，中间不休息"
+            ))
+            # 18:30-20:00 模考分析
+            lines.append(make_event(
+                plan_date.replace(hour=18, minute=30),
+                plan_date.replace(hour=20, minute=0),
+                f"📊 模考逐题分析 | {day_label}",
+                f"📌 {day_label}\n\n逐题分析模考结果\n记录每模块得分和失分原因"
+            ))
+            # 21:00-22:30 弱项练习 + DI/FIB
+            lines.append(make_event(
+                plan_date.replace(hour=21, minute=0),
+                plan_date.replace(hour=22, minute=30),
+                f"🔧 弱项突破 + DI/FIB | {day_label}",
+                f"📌 {day_label}\n\n根据模考结果专项补弱\nDI 5道\nFIB 3篇"
+            ))
+            # 00:00-02:00 WFD错题重练 (次日凌晨)
+            next_date = plan_date + timedelta(days=1)
+            lines.append(make_event(
+                next_date.replace(hour=0, minute=0),
+                next_date.replace(hour=2, minute=0),
+                f"📝 WFD错题重练 | {day_label}",
+                f"📌 {day_label}\n\nWFD {wfd}题（错题优先）\nSST {sst}题"
+            ))
+            # 02:00-03:00 复盘 (次日凌晨)
+            lines.append(make_event(
+                next_date.replace(hour=2, minute=0),
+                next_date.replace(hour=3, minute=0),
                 f"📋 错题复盘 | {day_label}",
-                f"📌 {day_label}\n\n当日错题复习\nWFD错句重练\n生词回顾"))
-
+                f"📌 {day_label}\n\n当日错题复习\nWFD错句重练\n生词回顾"
+            ))
             continue
 
-        # Day 20 简化
+        # ================================================================
+        # Day 20 — 考前最后一天
+        # ================================================================
         if day_num == 20:
-            t3_start = plan_date.replace(hour=18, minute=0)
-            t3_end = plan_date.replace(hour=19, minute=30)
-            lines.append(make_event(t3_start, t3_end,
-                f"📋 错题浏览 + 模板默写 | {day_label}",
-                f"📌 {day_label}\n\n浏览所有错题本\n全部模板默写一遍\nEssay话题论点快速回顾"))
-
-            t4_start = plan_date.replace(hour=21, minute=0)
-            t4_end = plan_date.replace(hour=21, minute=30)
-            lines.append(make_event(t4_start, t4_end,
-                f"😴 早睡 | {day_label}",
-                f"📌 {day_label}\n\n收拾考试用品\n22:00前睡觉\n保证充足睡眠"))
+            lines.append(make_event(
+                plan_date.replace(hour=14, minute=0),
+                plan_date.replace(hour=15, minute=30),
+                f"🗣 考前热身 RA+RS | {day_label}",
+                f"📌 {day_label} - 考前最后一天\n\nRA 3篇（轻度热身）\nRS 20句\n\n保持语感，不过度疲劳"
+            ))
+            lines.append(make_event(
+                plan_date.replace(hour=15, minute=30),
+                plan_date.replace(hour=17, minute=0),
+                f"📝 WFD易错句最后过一遍 | {day_label}",
+                f"📌 {day_label}\n\nWFD 高频易错句最后一遍\nSST关键词快速浏览"
+            ))
+            lines.append(make_event(
+                plan_date.replace(hour=19, minute=0),
+                plan_date.replace(hour=20, minute=30),
+                f"📋 模板默写 + 错题浏览 | {day_label}",
+                f"📌 {day_label}\n\n全部模板默写一遍 (DI/RL/SWT/SST/Essay)\n浏览错题本\nEssay话题论点快速回顾"
+            ))
+            lines.append(make_event(
+                plan_date.replace(hour=21, minute=0),
+                plan_date.replace(hour=22, minute=0),
+                f"😴 收拾 + 早睡 | {day_label}",
+                f"📌 {day_label}\n\n收拾考试用品\n22:00前睡觉\n保证充足睡眠！"
+            ))
             continue
 
-        # ---- 事件3: SST + WE 18:00-20:00 ----
-        t3_start = plan_date.replace(hour=18, minute=0)
-        t3_end = plan_date.replace(hour=20, minute=0)
+        # ================================================================
+        # 普通日 — 统一6时段，结束于次日03:00
+        # ================================================================
 
-        we_label = ""
+        milestone_note = f"\n{milestone}" if milestone else ""
+        wfd_round = "一刷" if day_num <= 7 else ("二刷" if day_num <= 14 else "三刷")
+        wfd_progress = sum(p[0] for p in PLAN[:day_num])
+
+        # ---- ① 14:00-15:30 RA + RS ----
+        lines.append(make_event(
+            plan_date.replace(hour=14, minute=0),
+            plan_date.replace(hour=15, minute=30),
+            f"🗣 RA 5篇 + RS 50句 | {day_label}",
+            f"📌 {day_label}{milestone_note}\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态"
+        ))
+
+        # ---- ② 15:30-18:00 WFD + SWT ----
+        swt_label = f"SWT {swt}题" if swt > 0 else "SWT 错题回顾"
+        lines.append(make_event(
+            plan_date.replace(hour=15, minute=30),
+            plan_date.replace(hour=18, minute=0),
+            f"📝 WFD {wfd}题 + {swt_label} | {day_label}",
+            f"📌 {day_label}\n\nWFD (Write From Dictation) {wfd}题 ({wfd_round})\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: {wfd_progress}/195\n\nSWT (Summarize Written Text) {swt_label}\n  · 模板：用 and/; 连接主题句\n  · 限时10分钟/篇"
+        ))
+
+        # 18:00-19:00 晚餐休息（不生成事件）
+
+        # ---- ③ 19:00-21:00 SST + WE ----
+        we_desc = ""
         if we > 0:
             topic_idx = (day_num - 1) % len(ESSAY_TOPICS)
-            we_label = f"\nWE Essay {we}篇（话题: {ESSAY_TOPICS[topic_idx]}）"
+            we_desc = f"\nWE Essay {we}篇（话题: {ESSAY_TOPICS[topic_idx]}）\n  · 套用万能模板\n  · 计时18-20分钟/篇\n  · 留2分钟检查拼写"
         else:
-            we_label = "\nWE 模板复习/论点积累"
+            we_desc = "\nWE 模板复习/论点积累\n  · 默写Essay模板\n  · 浏览话题论点素材"
 
         sst_round = " (二刷重点篇)" if day_num >= 15 else ""
+        lines.append(make_event(
+            plan_date.replace(hour=19, minute=0),
+            plan_date.replace(hour=21, minute=0),
+            f"🎧 SST {sst}题 + WE {we}篇 | {day_label}",
+            f"📌 {day_label}\n\nSST (Summarize Spoken Text) {sst}题{sst_round}\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写{we_desc}"
+        ))
 
-        summary3 = f"🎧 SST {sst}题 + WE {we}篇 | {day_label}"
-        desc3 = f"📌 {day_label}\n\nSST (Summarize Spoken Text) {sst}题{sst_round}{we_label}"
+        # ---- ④ 21:30-23:00 DI + FIB ----
+        lines.append(make_event(
+            plan_date.replace(hour=21, minute=30),
+            plan_date.replace(hour=23, minute=0),
+            f"📖 DI 10道 + FIB 5篇 | {day_label}",
+            f"📌 {day_label}\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配"
+        ))
 
-        lines.append(make_event(t3_start, t3_end, summary3, desc3))
+        # 23:00-00:00 休息（不生成事件）
 
-        # ---- 事件4: 阅读 + DI/RL 20:30-22:00 ----
-        t4_start = plan_date.replace(hour=20, minute=30)
-        t4_end = plan_date.replace(hour=22, minute=0)
+        # 次日凌晨日期
+        next_date = plan_date + timedelta(days=1)
 
-        reading_items = ""
-        if day_num % 2 == 0:
-            reading_items = "FIB-RW 10题 + RO 8题"
-        else:
-            reading_items = "FIB-R 8题 + RO 10题"
+        # ---- ⑤ 00:00-02:00 WFD错题 + 阅读 ----
+        reading_task = "RO 10题 + FIB-RW 8题" if day_num % 2 == 0 else "FIB-R 8题 + RO 10题"
+        lines.append(make_event(
+            next_date.replace(hour=0, minute=0),
+            next_date.replace(hour=2, minute=0),
+            f"📝 WFD错题重练 + 阅读 | {day_label}",
+            f"📌 {day_label}\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 {reading_task}\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断"
+        ))
 
-        summary4 = f"📖 阅读 + DI/RL | {day_label}"
-        desc4 = f"📌 {day_label}\n\n{reading_items}\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题"
-
-        lines.append(make_event(t4_start, t4_end, summary4, desc4))
-
-        # ---- 事件5: 错题复盘 22:00-22:30 ----
-        t5_start = plan_date.replace(hour=22, minute=0)
-        t5_end = plan_date.replace(hour=22, minute=30)
-
-        summary5 = f"📋 错题复盘 | {day_label}"
-        desc5 = f"📌 {day_label}\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录"
-
-        lines.append(make_event(t5_start, t5_end, summary5, desc5))
+        # ---- ⑥ 02:00-03:00 复盘收尾 ----
+        lines.append(make_event(
+            next_date.replace(hour=2, minute=0),
+            next_date.replace(hour=3, minute=0),
+            f"📋 错题复盘 + 生词复习 | {day_label}",
+            f"📌 {day_label}\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD {wfd}题 | SST {sst}题 | SWT {swt_label}\n  WE {we}篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！"
+        ))
 
     # ---- 考试日 6月30日 ----
     exam_dt = EXAM_DATE
@@ -275,9 +306,27 @@ def generate_ics() -> str:
     buffer_date = EXAM_DATE - timedelta(days=1)
     lines.append(make_event(
         buffer_date.replace(hour=14, minute=0),
+        buffer_date.replace(hour=15, minute=30),
+        "🗣 RA 3篇 + RS 20句 | 考前缓冲",
+        "📌 考前缓冲日\n\nRA 3篇（轻度）\nRS 20句\n\n保持语感，不过度疲劳"
+    ))
+    lines.append(make_event(
+        buffer_date.replace(hour=15, minute=30),
         buffer_date.replace(hour=18, minute=0),
-        "🔋 考前缓冲日 - 自由复习",
-        "考前最后一天自由安排\n\n建议：\n- WFD易错句最后过一遍\n- 模板默写\n- 轻松复习，不过度疲劳\n- 晚上10点前睡觉"
+        "📝 WFD易错句 + SST关键词 | 考前缓冲",
+        "📌 考前缓冲日\n\nWFD 高频易错句最后过一遍\nSST 67篇关键词快速浏览\nSWT 错题回顾"
+    ))
+    lines.append(make_event(
+        buffer_date.replace(hour=19, minute=0),
+        buffer_date.replace(hour=21, minute=0),
+        "📋 模板默写 + 错题浏览 | 考前缓冲",
+        "📌 考前缓冲日\n\n全部模板默写一遍\n浏览错题本\nEssay话题论点快速回顾"
+    ))
+    lines.append(make_event(
+        buffer_date.replace(hour=21, minute=30),
+        buffer_date.replace(hour=22, minute=0),
+        "😴 收拾 + 早睡 | 考前缓冲",
+        "📌 考前缓冲日\n\n收拾考试用品\n深呼吸，放轻松\n22:00前睡觉！"
     ))
 
     lines.append("END:VCALENDAR")

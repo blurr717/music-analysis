@@ -17,900 +17,1071 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260609T140000
-DTEND;TZID=Asia/Shanghai:20260609T150000
-DTSTAMP:20260608T082346Z
-UID:963b0cc0-d219-44fd-b18b-9657ed2f7f81
-SUMMARY:🗣 口语热身 RA+RS | Day1 (06/09 周二)
-DESCRIPTION:📌 Day1 (06/09 周二)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260609T153000
+DTSTAMP:20260608T091915Z
+UID:063a5019-3963-4fc8-90f7-7415d689afb3
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day1 (06/09 周二)
+DESCRIPTION:📌 Day1 (06/09 周二)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260609T150000
-DTEND;TZID=Asia/Shanghai:20260609T173000
-DTSTAMP:20260608T082346Z
-UID:49fb5b65-0243-484f-8d26-449007d134ee
+DTSTART;TZID=Asia/Shanghai:20260609T153000
+DTEND;TZID=Asia/Shanghai:20260609T180000
+DTSTAMP:20260608T091915Z
+UID:b32cedf2-b336-42b0-94f9-ea2dbac80172
 SUMMARY:📝 WFD 25题 + SWT 3题 | Day1 (06/09 周二)
-DESCRIPTION:📌 Day1 (06/09 周二)\n\nWFD (Write From Dictation) 25题 (一刷)\nSWT (Summarize Written Text) SWT 3题\n\n总进度: WFD 25/195
+DESCRIPTION:📌 Day1 (06/09 周二)\n\nWFD (Write From Dictation) 25题 (一刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 25/195\n\nSWT (Summarize Written Text) SWT 3题\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260609T180000
-DTEND;TZID=Asia/Shanghai:20260609T200000
-DTSTAMP:20260608T082346Z
-UID:d8650fe6-d8c2-49ac-aef6-b5a19c57dd34
+DTSTART;TZID=Asia/Shanghai:20260609T190000
+DTEND;TZID=Asia/Shanghai:20260609T210000
+DTSTAMP:20260608T091915Z
+UID:055cbe62-b7c7-4657-9745-e0ff7db11af1
 SUMMARY:🎧 SST 3题 + WE 0篇 | Day1 (06/09 周二)
-DESCRIPTION:📌 Day1 (06/09 周二)\n\nSST (Summarize Spoken Text) 3题\nWE 模板复习/论点积累
+DESCRIPTION:📌 Day1 (06/09 周二)\n\nSST (Summarize Spoken Text) 3题\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE 模板复习/论点积累\n  · 默写Essay模板\n  · 浏览话题论点素材
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260609T203000
-DTEND;TZID=Asia/Shanghai:20260609T220000
-DTSTAMP:20260608T082346Z
-UID:e6219248-133c-4d4a-8130-12d9573b83b2
-SUMMARY:📖 阅读 + DI/RL | Day1 (06/09 周二)
-DESCRIPTION:📌 Day1 (06/09 周二)\n\nFIB-R 8题 + RO 10题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260609T213000
+DTEND;TZID=Asia/Shanghai:20260609T230000
+DTSTAMP:20260608T091915Z
+UID:c1c38ae1-e9ce-46f6-ac8e-3893ae5f0e8a
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day1 (06/09 周二)
+DESCRIPTION:📌 Day1 (06/09 周二)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260609T220000
-DTEND;TZID=Asia/Shanghai:20260609T223000
-DTSTAMP:20260608T082346Z
-UID:dc85aadb-847b-4d45-91c8-26504b44e686
-SUMMARY:📋 错题复盘 | Day1 (06/09 周二)
-DESCRIPTION:📌 Day1 (06/09 周二)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260610T000000
+DTEND;TZID=Asia/Shanghai:20260610T020000
+DTSTAMP:20260608T091915Z
+UID:8465e7f5-4fbc-4295-b93b-72ba85e65d95
+SUMMARY:📝 WFD错题重练 + 阅读 | Day1 (06/09 周二)
+DESCRIPTION:📌 Day1 (06/09 周二)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 FIB-R 8题 + RO 10题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260610T020000
+DTEND;TZID=Asia/Shanghai:20260610T030000
+DTSTAMP:20260608T091915Z
+UID:ac63e6a7-cb93-4c01-9690-b79d925d3aee
+SUMMARY:📋 错题复盘 + 生词复习 | Day1 (06/09 周二)
+DESCRIPTION:📌 Day1 (06/09 周二)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 25题 | SST 3题 | SWT SWT 3题\n  WE 0篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260610T140000
-DTEND;TZID=Asia/Shanghai:20260610T150000
-DTSTAMP:20260608T082346Z
-UID:e2892098-c2a6-4bc7-b10d-bd2bc2ee6755
-SUMMARY:🗣 口语热身 RA+RS | Day2 (06/10 周三)
-DESCRIPTION:📌 Day2 (06/10 周三)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260610T153000
+DTSTAMP:20260608T091915Z
+UID:b4637e1f-4dbb-467a-9cd9-f63a3843f32e
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day2 (06/10 周三)
+DESCRIPTION:📌 Day2 (06/10 周三)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260610T150000
-DTEND;TZID=Asia/Shanghai:20260610T173000
-DTSTAMP:20260608T082346Z
-UID:da7d48e0-fce2-4cc2-aca0-096094a08ce9
+DTSTART;TZID=Asia/Shanghai:20260610T153000
+DTEND;TZID=Asia/Shanghai:20260610T180000
+DTSTAMP:20260608T091915Z
+UID:efbfbf56-bea0-4b17-aee4-e31d80f3163a
 SUMMARY:📝 WFD 28题 + SWT 4题 | Day2 (06/10 周三)
-DESCRIPTION:📌 Day2 (06/10 周三)\n\nWFD (Write From Dictation) 28题 (一刷)\nSWT (Summarize Written Text) SWT 4题\n\n总进度: WFD 53/195
+DESCRIPTION:📌 Day2 (06/10 周三)\n\nWFD (Write From Dictation) 28题 (一刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 53/195\n\nSWT (Summarize Written Text) SWT 4题\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260610T180000
-DTEND;TZID=Asia/Shanghai:20260610T200000
-DTSTAMP:20260608T082346Z
-UID:0858fda1-cb29-4233-bf34-53b7bb3b9b10
+DTSTART;TZID=Asia/Shanghai:20260610T190000
+DTEND;TZID=Asia/Shanghai:20260610T210000
+DTSTAMP:20260608T091915Z
+UID:461f362e-387d-4587-bb04-78e0d4c3aec2
 SUMMARY:🎧 SST 4题 + WE 1篇 | Day2 (06/10 周三)
-DESCRIPTION:📌 Day2 (06/10 周三)\n\nSST (Summarize Spoken Text) 4题\nWE Essay 1篇（话题: 科技）
+DESCRIPTION:📌 Day2 (06/10 周三)\n\nSST (Summarize Spoken Text) 4题\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE Essay 1篇（话题: 科技）\n  · 套用万能模板\n  · 计时18-20分钟/篇\n  · 留2分钟检查拼写
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260610T203000
-DTEND;TZID=Asia/Shanghai:20260610T220000
-DTSTAMP:20260608T082346Z
-UID:32d9dad2-c09b-42db-88f5-8bf9f453f6a3
-SUMMARY:📖 阅读 + DI/RL | Day2 (06/10 周三)
-DESCRIPTION:📌 Day2 (06/10 周三)\n\nFIB-RW 10题 + RO 8题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260610T213000
+DTEND;TZID=Asia/Shanghai:20260610T230000
+DTSTAMP:20260608T091915Z
+UID:4e561dbe-0719-4a6a-97c6-12ea527715c5
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day2 (06/10 周三)
+DESCRIPTION:📌 Day2 (06/10 周三)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260610T220000
-DTEND;TZID=Asia/Shanghai:20260610T223000
-DTSTAMP:20260608T082346Z
-UID:ce93ee78-b763-4c8f-ad99-feddc1111cb3
-SUMMARY:📋 错题复盘 | Day2 (06/10 周三)
-DESCRIPTION:📌 Day2 (06/10 周三)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260611T000000
+DTEND;TZID=Asia/Shanghai:20260611T020000
+DTSTAMP:20260608T091915Z
+UID:dc8bcadf-14f8-4da9-a4ec-5b69a650196f
+SUMMARY:📝 WFD错题重练 + 阅读 | Day2 (06/10 周三)
+DESCRIPTION:📌 Day2 (06/10 周三)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 RO 10题 + FIB-RW 8题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260611T020000
+DTEND;TZID=Asia/Shanghai:20260611T030000
+DTSTAMP:20260608T091915Z
+UID:c20f2e90-9c65-4de6-95ee-903f1ddc31f6
+SUMMARY:📋 错题复盘 + 生词复习 | Day2 (06/10 周三)
+DESCRIPTION:📌 Day2 (06/10 周三)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 28题 | SST 4题 | SWT SWT 4题\n  WE 1篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260611T140000
-DTEND;TZID=Asia/Shanghai:20260611T150000
-DTSTAMP:20260608T082346Z
-UID:32ea8dc8-6912-49cf-9647-f1076beb3930
-SUMMARY:🗣 口语热身 RA+RS | Day3 (06/11 周四)
-DESCRIPTION:📌 Day3 (06/11 周四)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260611T153000
+DTSTAMP:20260608T091915Z
+UID:4bf68517-4ebf-4846-b8da-1ceffab8c337
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day3 (06/11 周四)
+DESCRIPTION:📌 Day3 (06/11 周四)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260611T150000
-DTEND;TZID=Asia/Shanghai:20260611T173000
-DTSTAMP:20260608T082346Z
-UID:d9fbb590-bde8-4671-b8de-f5e74a3ed47d
+DTSTART;TZID=Asia/Shanghai:20260611T153000
+DTEND;TZID=Asia/Shanghai:20260611T180000
+DTSTAMP:20260608T091915Z
+UID:c25b88cb-8ade-448f-90d5-b35dd8086b5d
 SUMMARY:📝 WFD 28题 + SWT 5题 | Day3 (06/11 周四)
-DESCRIPTION:📌 Day3 (06/11 周四)\n\nWFD (Write From Dictation) 28题 (一刷)\nSWT (Summarize Written Text) SWT 5题\n\n总进度: WFD 81/195
+DESCRIPTION:📌 Day3 (06/11 周四)\n\nWFD (Write From Dictation) 28题 (一刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 81/195\n\nSWT (Summarize Written Text) SWT 5题\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260611T180000
-DTEND;TZID=Asia/Shanghai:20260611T200000
-DTSTAMP:20260608T082346Z
-UID:2d75fdd8-b7c6-4769-a76c-0ba484fdea2f
+DTSTART;TZID=Asia/Shanghai:20260611T190000
+DTEND;TZID=Asia/Shanghai:20260611T210000
+DTSTAMP:20260608T091915Z
+UID:75a45942-dbd3-402e-9317-3313610550bc
 SUMMARY:🎧 SST 4题 + WE 1篇 | Day3 (06/11 周四)
-DESCRIPTION:📌 Day3 (06/11 周四)\n\nSST (Summarize Spoken Text) 4题\nWE Essay 1篇（话题: 环境）
+DESCRIPTION:📌 Day3 (06/11 周四)\n\nSST (Summarize Spoken Text) 4题\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE Essay 1篇（话题: 环境）\n  · 套用万能模板\n  · 计时18-20分钟/篇\n  · 留2分钟检查拼写
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260611T203000
-DTEND;TZID=Asia/Shanghai:20260611T220000
-DTSTAMP:20260608T082346Z
-UID:b5262c92-e1d4-44dc-b457-17f23c50c921
-SUMMARY:📖 阅读 + DI/RL | Day3 (06/11 周四)
-DESCRIPTION:📌 Day3 (06/11 周四)\n\nFIB-R 8题 + RO 10题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260611T213000
+DTEND;TZID=Asia/Shanghai:20260611T230000
+DTSTAMP:20260608T091915Z
+UID:6f316df6-1e4f-45d7-a36b-5f9f9718d85b
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day3 (06/11 周四)
+DESCRIPTION:📌 Day3 (06/11 周四)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260611T220000
-DTEND;TZID=Asia/Shanghai:20260611T223000
-DTSTAMP:20260608T082346Z
-UID:e2a87833-5149-4686-a493-88a74d5c6bde
-SUMMARY:📋 错题复盘 | Day3 (06/11 周四)
-DESCRIPTION:📌 Day3 (06/11 周四)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260612T000000
+DTEND;TZID=Asia/Shanghai:20260612T020000
+DTSTAMP:20260608T091915Z
+UID:8512d915-6935-4610-9840-29391f45e4ed
+SUMMARY:📝 WFD错题重练 + 阅读 | Day3 (06/11 周四)
+DESCRIPTION:📌 Day3 (06/11 周四)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 FIB-R 8题 + RO 10题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260612T020000
+DTEND;TZID=Asia/Shanghai:20260612T030000
+DTSTAMP:20260608T091915Z
+UID:7eae4eaf-8e48-4d0d-b03a-a73305f9c22d
+SUMMARY:📋 错题复盘 + 生词复习 | Day3 (06/11 周四)
+DESCRIPTION:📌 Day3 (06/11 周四)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 28题 | SST 4题 | SWT SWT 5题\n  WE 1篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260612T140000
-DTEND;TZID=Asia/Shanghai:20260612T150000
-DTSTAMP:20260608T082346Z
-UID:bf35fdd1-875f-432b-9c74-6aa5df2ca102
-SUMMARY:🗣 口语热身 RA+RS | Day4 (06/12 周五)
-DESCRIPTION:📌 Day4 (06/12 周五)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260612T153000
+DTSTAMP:20260608T091915Z
+UID:6a71f847-15e0-4e56-b07e-9c23f3b5f561
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day4 (06/12 周五)
+DESCRIPTION:📌 Day4 (06/12 周五)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260612T150000
-DTEND;TZID=Asia/Shanghai:20260612T173000
-DTSTAMP:20260608T082346Z
-UID:cbbf1ff0-af1b-4ce8-a9ca-cadb88622d8a
+DTSTART;TZID=Asia/Shanghai:20260612T153000
+DTEND;TZID=Asia/Shanghai:20260612T180000
+DTSTAMP:20260608T091915Z
+UID:b25af07b-0a55-47a6-8193-80df4d191358
 SUMMARY:📝 WFD 28题 + SWT 5题 | Day4 (06/12 周五)
-DESCRIPTION:📌 Day4 (06/12 周五)\n\nWFD (Write From Dictation) 28题 (一刷)\nSWT (Summarize Written Text) SWT 5题\n\n总进度: WFD 109/195
+DESCRIPTION:📌 Day4 (06/12 周五)\n\nWFD (Write From Dictation) 28题 (一刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 109/195\n\nSWT (Summarize Written Text) SWT 5题\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260612T180000
-DTEND;TZID=Asia/Shanghai:20260612T200000
-DTSTAMP:20260608T082346Z
-UID:db3bb98f-d321-4f85-8b79-7debc8221168
+DTSTART;TZID=Asia/Shanghai:20260612T190000
+DTEND;TZID=Asia/Shanghai:20260612T210000
+DTSTAMP:20260608T091915Z
+UID:ed778398-359c-4b0d-881d-6cc2aa83e352
 SUMMARY:🎧 SST 5题 + WE 1篇 | Day4 (06/12 周五)
-DESCRIPTION:📌 Day4 (06/12 周五)\n\nSST (Summarize Spoken Text) 5题\nWE Essay 1篇（话题: 健康）
+DESCRIPTION:📌 Day4 (06/12 周五)\n\nSST (Summarize Spoken Text) 5题\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE Essay 1篇（话题: 健康）\n  · 套用万能模板\n  · 计时18-20分钟/篇\n  · 留2分钟检查拼写
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260612T203000
-DTEND;TZID=Asia/Shanghai:20260612T220000
-DTSTAMP:20260608T082346Z
-UID:beddf028-bc85-4975-ab81-b5199c2191cf
-SUMMARY:📖 阅读 + DI/RL | Day4 (06/12 周五)
-DESCRIPTION:📌 Day4 (06/12 周五)\n\nFIB-RW 10题 + RO 8题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260612T213000
+DTEND;TZID=Asia/Shanghai:20260612T230000
+DTSTAMP:20260608T091915Z
+UID:c4e6016e-9043-465a-bae9-427cbfbdf8d1
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day4 (06/12 周五)
+DESCRIPTION:📌 Day4 (06/12 周五)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260612T220000
-DTEND;TZID=Asia/Shanghai:20260612T223000
-DTSTAMP:20260608T082346Z
-UID:80c1fb9c-7daa-4510-824c-fcd3ebb417f0
-SUMMARY:📋 错题复盘 | Day4 (06/12 周五)
-DESCRIPTION:📌 Day4 (06/12 周五)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260613T000000
+DTEND;TZID=Asia/Shanghai:20260613T020000
+DTSTAMP:20260608T091915Z
+UID:5771527b-6e60-47d7-892e-65c6d0a5bb37
+SUMMARY:📝 WFD错题重练 + 阅读 | Day4 (06/12 周五)
+DESCRIPTION:📌 Day4 (06/12 周五)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 RO 10题 + FIB-RW 8题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260613T020000
+DTEND;TZID=Asia/Shanghai:20260613T030000
+DTSTAMP:20260608T091915Z
+UID:13a8937a-d3c7-42e8-b33d-71cbac4cd32b
+SUMMARY:📋 错题复盘 + 生词复习 | Day4 (06/12 周五)
+DESCRIPTION:📌 Day4 (06/12 周五)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 28题 | SST 5题 | SWT SWT 5题\n  WE 1篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260613T140000
-DTEND;TZID=Asia/Shanghai:20260613T150000
-DTSTAMP:20260608T082346Z
-UID:49031c72-f30a-49b7-ace2-9169180129ed
-SUMMARY:🗣 口语热身 RA+RS | Day5 (06/13 周六)
-DESCRIPTION:📌 Day5 (06/13 周六)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260613T153000
+DTSTAMP:20260608T091915Z
+UID:d8c921fc-12c9-42fa-97dc-2320b782a273
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day5 (06/13 周六)
+DESCRIPTION:📌 Day5 (06/13 周六)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260613T150000
-DTEND;TZID=Asia/Shanghai:20260613T173000
-DTSTAMP:20260608T082346Z
-UID:1042809a-d26a-47ac-b465-46488ab8738c
+DTSTART;TZID=Asia/Shanghai:20260613T153000
+DTEND;TZID=Asia/Shanghai:20260613T180000
+DTSTAMP:20260608T091915Z
+UID:505a0f96-e56c-4f52-8601-e1462be82e55
 SUMMARY:📝 WFD 30题 + SWT 5题 | Day5 (06/13 周六)
-DESCRIPTION:📌 Day5 (06/13 周六)\n\nWFD (Write From Dictation) 30题 (一刷)\nSWT (Summarize Written Text) SWT 5题\n\n总进度: WFD 139/195
+DESCRIPTION:📌 Day5 (06/13 周六)\n\nWFD (Write From Dictation) 30题 (一刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 139/195\n\nSWT (Summarize Written Text) SWT 5题\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260613T180000
-DTEND;TZID=Asia/Shanghai:20260613T200000
-DTSTAMP:20260608T082346Z
-UID:4fc9ece0-752e-4136-9b4f-1841bccb6061
+DTSTART;TZID=Asia/Shanghai:20260613T190000
+DTEND;TZID=Asia/Shanghai:20260613T210000
+DTSTAMP:20260608T091915Z
+UID:1c2405e0-95a8-4fdd-aad5-8d6b8629e8f3
 SUMMARY:🎧 SST 5题 + WE 2篇 | Day5 (06/13 周六)
-DESCRIPTION:📌 Day5 (06/13 周六)\n\nSST (Summarize Spoken Text) 5题\nWE Essay 2篇（话题: 社会）
+DESCRIPTION:📌 Day5 (06/13 周六)\n\nSST (Summarize Spoken Text) 5题\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE Essay 2篇（话题: 社会）\n  · 套用万能模板\n  · 计时18-20分钟/篇\n  · 留2分钟检查拼写
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260613T203000
-DTEND;TZID=Asia/Shanghai:20260613T220000
-DTSTAMP:20260608T082346Z
-UID:97266ad9-a929-4de3-980b-502efd8d44d4
-SUMMARY:📖 阅读 + DI/RL | Day5 (06/13 周六)
-DESCRIPTION:📌 Day5 (06/13 周六)\n\nFIB-R 8题 + RO 10题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260613T213000
+DTEND;TZID=Asia/Shanghai:20260613T230000
+DTSTAMP:20260608T091915Z
+UID:f7cef177-5918-4b5a-bb88-ed2650cff7e6
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day5 (06/13 周六)
+DESCRIPTION:📌 Day5 (06/13 周六)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260613T220000
-DTEND;TZID=Asia/Shanghai:20260613T223000
-DTSTAMP:20260608T082346Z
-UID:2ed735ec-f332-485a-af0b-99e2a971a3f6
-SUMMARY:📋 错题复盘 | Day5 (06/13 周六)
-DESCRIPTION:📌 Day5 (06/13 周六)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260614T000000
+DTEND;TZID=Asia/Shanghai:20260614T020000
+DTSTAMP:20260608T091915Z
+UID:85131175-3e7b-4ca1-9680-9cf0b4190a47
+SUMMARY:📝 WFD错题重练 + 阅读 | Day5 (06/13 周六)
+DESCRIPTION:📌 Day5 (06/13 周六)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 FIB-R 8题 + RO 10题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260614T020000
+DTEND;TZID=Asia/Shanghai:20260614T030000
+DTSTAMP:20260608T091915Z
+UID:3e8237a2-b260-41f0-a4df-6a027ddab72c
+SUMMARY:📋 错题复盘 + 生词复习 | Day5 (06/13 周六)
+DESCRIPTION:📌 Day5 (06/13 周六)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 30题 | SST 5题 | SWT SWT 5题\n  WE 2篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260614T140000
-DTEND;TZID=Asia/Shanghai:20260614T150000
-DTSTAMP:20260608T082346Z
-UID:ddd9bf87-3966-4fbc-bd23-407fa655aedc
-SUMMARY:🗣 口语热身 RA+RS | Day6 (06/14 周日)
-DESCRIPTION:📌 Day6 (06/14 周日)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260614T153000
+DTSTAMP:20260608T091915Z
+UID:47db0766-cd9d-4759-8cad-5588d39cd279
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day6 (06/14 周日)
+DESCRIPTION:📌 Day6 (06/14 周日)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260614T150000
-DTEND;TZID=Asia/Shanghai:20260614T173000
-DTSTAMP:20260608T082346Z
-UID:fac074bf-8bb8-4949-9e3a-fa87bbfee2fe
+DTSTART;TZID=Asia/Shanghai:20260614T153000
+DTEND;TZID=Asia/Shanghai:20260614T180000
+DTSTAMP:20260608T091915Z
+UID:1e595fee-efc3-4448-a7c6-0f7980591a3e
 SUMMARY:📝 WFD 30题 + SWT 5题 | Day6 (06/14 周日)
-DESCRIPTION:📌 Day6 (06/14 周日)\n\nWFD (Write From Dictation) 30题 (一刷)\nSWT (Summarize Written Text) SWT 5题\n\n总进度: WFD 169/195
+DESCRIPTION:📌 Day6 (06/14 周日)\n\nWFD (Write From Dictation) 30题 (一刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 169/195\n\nSWT (Summarize Written Text) SWT 5题\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260614T180000
-DTEND;TZID=Asia/Shanghai:20260614T200000
-DTSTAMP:20260608T082346Z
-UID:a2449eb0-9060-4a69-bb72-2a3b9b4234b5
+DTSTART;TZID=Asia/Shanghai:20260614T190000
+DTEND;TZID=Asia/Shanghai:20260614T210000
+DTSTAMP:20260608T091915Z
+UID:e8e40483-907f-463e-834c-982435b18d6b
 SUMMARY:🎧 SST 5题 + WE 2篇 | Day6 (06/14 周日)
-DESCRIPTION:📌 Day6 (06/14 周日)\n\nSST (Summarize Spoken Text) 5题\nWE Essay 2篇（话题: 经济）
+DESCRIPTION:📌 Day6 (06/14 周日)\n\nSST (Summarize Spoken Text) 5题\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE Essay 2篇（话题: 经济）\n  · 套用万能模板\n  · 计时18-20分钟/篇\n  · 留2分钟检查拼写
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260614T203000
-DTEND;TZID=Asia/Shanghai:20260614T220000
-DTSTAMP:20260608T082346Z
-UID:11cdde1a-4c17-46ab-867b-b839772d908e
-SUMMARY:📖 阅读 + DI/RL | Day6 (06/14 周日)
-DESCRIPTION:📌 Day6 (06/14 周日)\n\nFIB-RW 10题 + RO 8题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260614T213000
+DTEND;TZID=Asia/Shanghai:20260614T230000
+DTSTAMP:20260608T091915Z
+UID:182f1223-550f-437d-8b0a-5b4e60690c8d
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day6 (06/14 周日)
+DESCRIPTION:📌 Day6 (06/14 周日)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260614T220000
-DTEND;TZID=Asia/Shanghai:20260614T223000
-DTSTAMP:20260608T082346Z
-UID:f9e0f6a7-cfab-4fe0-aea2-fafd74447da9
-SUMMARY:📋 错题复盘 | Day6 (06/14 周日)
-DESCRIPTION:📌 Day6 (06/14 周日)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260615T000000
+DTEND;TZID=Asia/Shanghai:20260615T020000
+DTSTAMP:20260608T091915Z
+UID:bdc7797c-4740-4963-b26b-d5e7541f7dd5
+SUMMARY:📝 WFD错题重练 + 阅读 | Day6 (06/14 周日)
+DESCRIPTION:📌 Day6 (06/14 周日)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 RO 10题 + FIB-RW 8题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260615T020000
+DTEND;TZID=Asia/Shanghai:20260615T030000
+DTSTAMP:20260608T091915Z
+UID:4cfb9a68-fbda-4cd4-8c23-4e542d283cdf
+SUMMARY:📋 错题复盘 + 生词复习 | Day6 (06/14 周日)
+DESCRIPTION:📌 Day6 (06/14 周日)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 30题 | SST 5题 | SWT SWT 5题\n  WE 2篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260615T140000
-DTEND;TZID=Asia/Shanghai:20260615T150000
-DTSTAMP:20260608T082346Z
-UID:d9565af9-1f55-4593-8adf-21c8fcc91945
-SUMMARY:🗣 口语热身 RA+RS | Day7 (06/15 周一)
-DESCRIPTION:📌 Day7 (06/15 周一)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260615T143000
+DTSTAMP:20260608T091915Z
+UID:9bbf266d-3e49-4ba6-84a4-0e442f559abe
+SUMMARY:🗣 模考热身 RA+RS | Day7 (06/15 周一)
+DESCRIPTION:📌 Day7 (06/15 周一) - 模考①\n\nRA 3篇（轻度）\nRS 20句\n\n准备进入模考状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260615T150000
-DTEND;TZID=Asia/Shanghai:20260615T180000
-DTSTAMP:20260608T082346Z
-UID:d9fe29da-1208-40a5-8b41-cd623a1a19a1
-SUMMARY:🧪 模考① 模考 | Day7 (06/15 周一)
-DESCRIPTION:📌 Day7 (06/15 周一) - 模考日\n\n完整模考 3小时 (猩际/官方模考卷)\n模拟真实考试环境，中间不休息
+DTSTART;TZID=Asia/Shanghai:20260615T143000
+DTEND;TZID=Asia/Shanghai:20260615T173000
+DTSTAMP:20260608T091915Z
+UID:c94f06ae-02d6-4036-a580-de07107badf4
+SUMMARY:🧪 模考① 完整模考 | Day7 (06/15 周一)
+DESCRIPTION:📌 Day7 (06/15 周一) - 模考日\n\n完整模考 3小时\n猩际/官方模考卷\n模拟真实环境，中间不休息
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260615T183000
 DTEND;TZID=Asia/Shanghai:20260615T200000
-DTSTAMP:20260608T082346Z
-UID:affd923d-f6d5-4f7a-94b1-25208c27b2ce
-SUMMARY:📊 模考分析 | Day7 (06/15 周一)
-DESCRIPTION:📌 Day7 (06/15 周一)\n\n逐题分析模考结果\n记录每模块得分和失分原因\n\nWFD 26题 + SST 3题
+DTSTAMP:20260608T091915Z
+UID:b5b799c1-d5b0-4724-8727-8c3ce3ee920b
+SUMMARY:📊 模考逐题分析 | Day7 (06/15 周一)
+DESCRIPTION:📌 Day7 (06/15 周一)\n\n逐题分析模考结果\n记录每模块得分和失分原因
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260615T203000
-DTEND;TZID=Asia/Shanghai:20260615T220000
-DTSTAMP:20260608T082346Z
-UID:9103c4ef-2e96-42ce-9b59-a986a764da8b
-SUMMARY:📖 阅读 + 模板保温 | Day7 (06/15 周一)
-DESCRIPTION:📌 Day7 (06/15 周一)\n\nFIB-RW 8题 + RO 5题\nDI/RL 模板练习各3题\n错题复盘
-END:VEVENT
-
-BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260615T220000
+DTSTART;TZID=Asia/Shanghai:20260615T210000
 DTEND;TZID=Asia/Shanghai:20260615T223000
-DTSTAMP:20260608T082346Z
-UID:2bd3fb71-d0a7-444e-a6c8-d9099a3c5b78
+DTSTAMP:20260608T091915Z
+UID:a8a9656b-3926-480d-8981-f8a741869959
+SUMMARY:🔧 弱项突破 + DI/FIB | Day7 (06/15 周一)
+DESCRIPTION:📌 Day7 (06/15 周一)\n\n根据模考结果专项补弱\nDI 5道\nFIB 3篇
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260616T000000
+DTEND;TZID=Asia/Shanghai:20260616T020000
+DTSTAMP:20260608T091915Z
+UID:2d138348-23c2-4adc-bf27-115813c214fc
+SUMMARY:📝 WFD错题重练 | Day7 (06/15 周一)
+DESCRIPTION:📌 Day7 (06/15 周一)\n\nWFD 26题（错题优先）\nSST 3题
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260616T020000
+DTEND;TZID=Asia/Shanghai:20260616T030000
+DTSTAMP:20260608T091915Z
+UID:65d131ee-71c6-4b30-adfd-f548a6571502
 SUMMARY:📋 错题复盘 | Day7 (06/15 周一)
 DESCRIPTION:📌 Day7 (06/15 周一)\n\n当日错题复习\nWFD错句重练\n生词回顾
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260616T140000
-DTEND;TZID=Asia/Shanghai:20260616T150000
-DTSTAMP:20260608T082346Z
-UID:2cb87d5e-b1f1-4a70-a9cc-75046008183a
-SUMMARY:🗣 口语热身 RA+RS | Day8 (06/16 周二)
-DESCRIPTION:📌 Day8 (06/16 周二)\n🎉 WFD一刷完成 (195/195)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260616T153000
+DTSTAMP:20260608T091915Z
+UID:5f724344-0860-46c9-a77a-30966b3945f5
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day8 (06/16 周二)
+DESCRIPTION:📌 Day8 (06/16 周二)\n🎉 WFD一刷完成 (195/195)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260616T150000
-DTEND;TZID=Asia/Shanghai:20260616T173000
-DTSTAMP:20260608T082346Z
-UID:e8b9ace8-ba7d-4a96-b9cf-f18f01d80c9a
+DTSTART;TZID=Asia/Shanghai:20260616T153000
+DTEND;TZID=Asia/Shanghai:20260616T180000
+DTSTAMP:20260608T091915Z
+UID:32261d8b-40a6-4a5f-b721-c610daa6f273
 SUMMARY:📝 WFD 30题 + SWT 5题 | Day8 (06/16 周二)
-DESCRIPTION:📌 Day8 (06/16 周二)\n🎉 WFD一刷完成 (195/195)\n\nWFD (Write From Dictation) 30题 (二刷)\nSWT (Summarize Written Text) SWT 5题\n\n总进度: WFD 225/195 ✓一刷
+DESCRIPTION:📌 Day8 (06/16 周二)\n\nWFD (Write From Dictation) 30题 (二刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 225/195\n\nSWT (Summarize Written Text) SWT 5题\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260616T180000
-DTEND;TZID=Asia/Shanghai:20260616T200000
-DTSTAMP:20260608T082346Z
-UID:994d1699-796e-4742-a43d-20c983de82be
+DTSTART;TZID=Asia/Shanghai:20260616T190000
+DTEND;TZID=Asia/Shanghai:20260616T210000
+DTSTAMP:20260608T091915Z
+UID:9319d430-7f71-4fe7-9186-f1530a574b07
 SUMMARY:🎧 SST 5题 + WE 2篇 | Day8 (06/16 周二)
-DESCRIPTION:📌 Day8 (06/16 周二)\n\nSST (Summarize Spoken Text) 5题\nWE Essay 2篇（话题: 媒体）
+DESCRIPTION:📌 Day8 (06/16 周二)\n\nSST (Summarize Spoken Text) 5题\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE Essay 2篇（话题: 媒体）\n  · 套用万能模板\n  · 计时18-20分钟/篇\n  · 留2分钟检查拼写
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260616T203000
-DTEND;TZID=Asia/Shanghai:20260616T220000
-DTSTAMP:20260608T082346Z
-UID:82626fb6-2b7b-4ddb-b2f7-dbad3e3f536f
-SUMMARY:📖 阅读 + DI/RL | Day8 (06/16 周二)
-DESCRIPTION:📌 Day8 (06/16 周二)\n\nFIB-RW 10题 + RO 8题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260616T213000
+DTEND;TZID=Asia/Shanghai:20260616T230000
+DTSTAMP:20260608T091915Z
+UID:158a5beb-53cb-409e-b182-301555d985e9
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day8 (06/16 周二)
+DESCRIPTION:📌 Day8 (06/16 周二)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260616T220000
-DTEND;TZID=Asia/Shanghai:20260616T223000
-DTSTAMP:20260608T082346Z
-UID:c1d492a9-0b24-473b-be06-b9926ab2e088
-SUMMARY:📋 错题复盘 | Day8 (06/16 周二)
-DESCRIPTION:📌 Day8 (06/16 周二)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260617T000000
+DTEND;TZID=Asia/Shanghai:20260617T020000
+DTSTAMP:20260608T091915Z
+UID:7c09b1ef-7414-4a30-98de-49cae9485e69
+SUMMARY:📝 WFD错题重练 + 阅读 | Day8 (06/16 周二)
+DESCRIPTION:📌 Day8 (06/16 周二)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 RO 10题 + FIB-RW 8题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260617T020000
+DTEND;TZID=Asia/Shanghai:20260617T030000
+DTSTAMP:20260608T091915Z
+UID:1c7fd54b-b6e0-4d1d-a2f0-318916f37744
+SUMMARY:📋 错题复盘 + 生词复习 | Day8 (06/16 周二)
+DESCRIPTION:📌 Day8 (06/16 周二)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 30题 | SST 5题 | SWT SWT 5题\n  WE 2篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260617T140000
-DTEND;TZID=Asia/Shanghai:20260617T150000
-DTSTAMP:20260608T082346Z
-UID:c804c7fd-4b17-4120-a8ff-05a1b1ca552c
-SUMMARY:🗣 口语热身 RA+RS | Day9 (06/17 周三)
-DESCRIPTION:📌 Day9 (06/17 周三)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260617T153000
+DTSTAMP:20260608T091915Z
+UID:e742b7ce-8076-4da1-ae39-1975fff560e4
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day9 (06/17 周三)
+DESCRIPTION:📌 Day9 (06/17 周三)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260617T150000
-DTEND;TZID=Asia/Shanghai:20260617T173000
-DTSTAMP:20260608T082346Z
-UID:c3bb0e25-7366-448f-aa1e-1972bb4e1b21
+DTSTART;TZID=Asia/Shanghai:20260617T153000
+DTEND;TZID=Asia/Shanghai:20260617T180000
+DTSTAMP:20260608T091915Z
+UID:db966514-697d-4195-ae21-74a4d64be9d5
 SUMMARY:📝 WFD 28题 + SWT 5题 | Day9 (06/17 周三)
-DESCRIPTION:📌 Day9 (06/17 周三)\n\nWFD (Write From Dictation) 28题 (二刷)\nSWT (Summarize Written Text) SWT 5题\n\n总进度: WFD 253/195 ✓一刷
+DESCRIPTION:📌 Day9 (06/17 周三)\n\nWFD (Write From Dictation) 28题 (二刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 253/195\n\nSWT (Summarize Written Text) SWT 5题\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260617T180000
-DTEND;TZID=Asia/Shanghai:20260617T200000
-DTSTAMP:20260608T082346Z
-UID:65db68a7-f687-4433-b6f9-e0990f6eedc4
+DTSTART;TZID=Asia/Shanghai:20260617T190000
+DTEND;TZID=Asia/Shanghai:20260617T210000
+DTSTAMP:20260608T091915Z
+UID:39146440-1e86-4286-82b9-00f7ad1d19d3
 SUMMARY:🎧 SST 5题 + WE 1篇 | Day9 (06/17 周三)
-DESCRIPTION:📌 Day9 (06/17 周三)\n\nSST (Summarize Spoken Text) 5题\nWE Essay 1篇（话题: 教育）
+DESCRIPTION:📌 Day9 (06/17 周三)\n\nSST (Summarize Spoken Text) 5题\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE Essay 1篇（话题: 教育）\n  · 套用万能模板\n  · 计时18-20分钟/篇\n  · 留2分钟检查拼写
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260617T203000
-DTEND;TZID=Asia/Shanghai:20260617T220000
-DTSTAMP:20260608T082346Z
-UID:4b082c22-1cc8-4020-9053-c585dc4ebf16
-SUMMARY:📖 阅读 + DI/RL | Day9 (06/17 周三)
-DESCRIPTION:📌 Day9 (06/17 周三)\n\nFIB-R 8题 + RO 10题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260617T213000
+DTEND;TZID=Asia/Shanghai:20260617T230000
+DTSTAMP:20260608T091915Z
+UID:72eaddfc-c5e1-4ccf-9535-c53784fcf66f
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day9 (06/17 周三)
+DESCRIPTION:📌 Day9 (06/17 周三)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260617T220000
-DTEND;TZID=Asia/Shanghai:20260617T223000
-DTSTAMP:20260608T082346Z
-UID:c96b1075-03f8-4547-a972-e47d3bbcb69e
-SUMMARY:📋 错题复盘 | Day9 (06/17 周三)
-DESCRIPTION:📌 Day9 (06/17 周三)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260618T000000
+DTEND;TZID=Asia/Shanghai:20260618T020000
+DTSTAMP:20260608T091915Z
+UID:a7438fc4-b71e-42f0-bd7b-1733f6c093fb
+SUMMARY:📝 WFD错题重练 + 阅读 | Day9 (06/17 周三)
+DESCRIPTION:📌 Day9 (06/17 周三)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 FIB-R 8题 + RO 10题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260618T020000
+DTEND;TZID=Asia/Shanghai:20260618T030000
+DTSTAMP:20260608T091915Z
+UID:b48da309-b8ef-4744-a8af-a4c62c9fb680
+SUMMARY:📋 错题复盘 + 生词复习 | Day9 (06/17 周三)
+DESCRIPTION:📌 Day9 (06/17 周三)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 28题 | SST 5题 | SWT SWT 5题\n  WE 1篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260618T140000
-DTEND;TZID=Asia/Shanghai:20260618T150000
-DTSTAMP:20260608T082346Z
-UID:e5ae7fd5-a700-49f6-a250-38c9f959a26f
-SUMMARY:🗣 口语热身 RA+RS | Day10 (06/18 周四)
-DESCRIPTION:📌 Day10 (06/18 周四)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260618T153000
+DTSTAMP:20260608T091915Z
+UID:3a16e8c8-45d3-426b-88a2-9d57c3b4eded
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day10 (06/18 周四)
+DESCRIPTION:📌 Day10 (06/18 周四)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260618T150000
-DTEND;TZID=Asia/Shanghai:20260618T173000
-DTSTAMP:20260608T082346Z
-UID:9783c0f6-d279-4efa-bb49-cff2ed4811de
+DTSTART;TZID=Asia/Shanghai:20260618T153000
+DTEND;TZID=Asia/Shanghai:20260618T180000
+DTSTAMP:20260608T091915Z
+UID:1939c70d-d8e6-4a95-8e23-271ca4f78fb0
 SUMMARY:📝 WFD 28题 + SWT 5题 | Day10 (06/18 周四)
-DESCRIPTION:📌 Day10 (06/18 周四)\n\nWFD (Write From Dictation) 28题 (二刷)\nSWT (Summarize Written Text) SWT 5题\n\n总进度: WFD 281/195 ✓一刷
+DESCRIPTION:📌 Day10 (06/18 周四)\n\nWFD (Write From Dictation) 28题 (二刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 281/195\n\nSWT (Summarize Written Text) SWT 5题\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260618T180000
-DTEND;TZID=Asia/Shanghai:20260618T200000
-DTSTAMP:20260608T082346Z
-UID:4f6e740b-bd2c-42ee-bc45-dc4d030e94af
+DTSTART;TZID=Asia/Shanghai:20260618T190000
+DTEND;TZID=Asia/Shanghai:20260618T210000
+DTSTAMP:20260608T091915Z
+UID:24e03fd0-5c8a-47db-911e-955ebaf46ccf
 SUMMARY:🎧 SST 5题 + WE 2篇 | Day10 (06/18 周四)
-DESCRIPTION:📌 Day10 (06/18 周四)\n\nSST (Summarize Spoken Text) 5题\nWE Essay 2篇（话题: 科技）
+DESCRIPTION:📌 Day10 (06/18 周四)\n\nSST (Summarize Spoken Text) 5题\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE Essay 2篇（话题: 科技）\n  · 套用万能模板\n  · 计时18-20分钟/篇\n  · 留2分钟检查拼写
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260618T203000
-DTEND;TZID=Asia/Shanghai:20260618T220000
-DTSTAMP:20260608T082346Z
-UID:191f8b98-eae7-402e-b62d-47cd4c6aa98b
-SUMMARY:📖 阅读 + DI/RL | Day10 (06/18 周四)
-DESCRIPTION:📌 Day10 (06/18 周四)\n\nFIB-RW 10题 + RO 8题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260618T213000
+DTEND;TZID=Asia/Shanghai:20260618T230000
+DTSTAMP:20260608T091915Z
+UID:96854e1b-2059-4d1d-ad52-1bc8c7849447
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day10 (06/18 周四)
+DESCRIPTION:📌 Day10 (06/18 周四)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260618T220000
-DTEND;TZID=Asia/Shanghai:20260618T223000
-DTSTAMP:20260608T082346Z
-UID:b5a4b05b-b32f-4395-a0e9-bb4e4d99d1a5
-SUMMARY:📋 错题复盘 | Day10 (06/18 周四)
-DESCRIPTION:📌 Day10 (06/18 周四)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260619T000000
+DTEND;TZID=Asia/Shanghai:20260619T020000
+DTSTAMP:20260608T091915Z
+UID:c2d11f05-8336-4e5b-8a0a-ef87ce839e93
+SUMMARY:📝 WFD错题重练 + 阅读 | Day10 (06/18 周四)
+DESCRIPTION:📌 Day10 (06/18 周四)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 RO 10题 + FIB-RW 8题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260619T020000
+DTEND;TZID=Asia/Shanghai:20260619T030000
+DTSTAMP:20260608T091915Z
+UID:d0ac2bbd-928b-4be7-bfda-da8b817f8da5
+SUMMARY:📋 错题复盘 + 生词复习 | Day10 (06/18 周四)
+DESCRIPTION:📌 Day10 (06/18 周四)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 28题 | SST 5题 | SWT SWT 5题\n  WE 2篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260619T140000
-DTEND;TZID=Asia/Shanghai:20260619T150000
-DTSTAMP:20260608T082346Z
-UID:def4f900-38ce-4a0d-90f6-631b1af8e42f
-SUMMARY:🗣 口语热身 RA+RS | Day11 (06/19 周五)
-DESCRIPTION:📌 Day11 (06/19 周五)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260619T153000
+DTSTAMP:20260608T091915Z
+UID:889ebb0e-24c9-41e4-a05e-9de9696a885b
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day11 (06/19 周五)
+DESCRIPTION:📌 Day11 (06/19 周五)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260619T150000
-DTEND;TZID=Asia/Shanghai:20260619T173000
-DTSTAMP:20260608T082346Z
-UID:ab1702cd-0558-4b09-9873-db0a498f4e9f
+DTSTART;TZID=Asia/Shanghai:20260619T153000
+DTEND;TZID=Asia/Shanghai:20260619T180000
+DTSTAMP:20260608T091915Z
+UID:392e82b9-b28c-485f-9677-aa0c205cee97
 SUMMARY:📝 WFD 28题 + SWT 5题 | Day11 (06/19 周五)
-DESCRIPTION:📌 Day11 (06/19 周五)\n\nWFD (Write From Dictation) 28题 (二刷)\nSWT (Summarize Written Text) SWT 5题\n\n总进度: WFD 309/195 ✓一刷
+DESCRIPTION:📌 Day11 (06/19 周五)\n\nWFD (Write From Dictation) 28题 (二刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 309/195\n\nSWT (Summarize Written Text) SWT 5题\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260619T180000
-DTEND;TZID=Asia/Shanghai:20260619T200000
-DTSTAMP:20260608T082346Z
-UID:421a5558-8688-4fad-a297-d2a1eab20416
+DTSTART;TZID=Asia/Shanghai:20260619T190000
+DTEND;TZID=Asia/Shanghai:20260619T210000
+DTSTAMP:20260608T091915Z
+UID:9796684b-9140-4542-9c3f-31bc4ab49d43
 SUMMARY:🎧 SST 5题 + WE 1篇 | Day11 (06/19 周五)
-DESCRIPTION:📌 Day11 (06/19 周五)\n\nSST (Summarize Spoken Text) 5题\nWE Essay 1篇（话题: 环境）
+DESCRIPTION:📌 Day11 (06/19 周五)\n\nSST (Summarize Spoken Text) 5题\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE Essay 1篇（话题: 环境）\n  · 套用万能模板\n  · 计时18-20分钟/篇\n  · 留2分钟检查拼写
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260619T203000
-DTEND;TZID=Asia/Shanghai:20260619T220000
-DTSTAMP:20260608T082346Z
-UID:1ebc4697-5174-4c63-bc6d-6a630f6405b7
-SUMMARY:📖 阅读 + DI/RL | Day11 (06/19 周五)
-DESCRIPTION:📌 Day11 (06/19 周五)\n\nFIB-R 8题 + RO 10题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260619T213000
+DTEND;TZID=Asia/Shanghai:20260619T230000
+DTSTAMP:20260608T091915Z
+UID:e3d419e2-29c6-46e8-b57d-a8340f814798
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day11 (06/19 周五)
+DESCRIPTION:📌 Day11 (06/19 周五)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260619T220000
-DTEND;TZID=Asia/Shanghai:20260619T223000
-DTSTAMP:20260608T082346Z
-UID:08584c0c-8844-47c4-b8a9-a18c2088f59d
-SUMMARY:📋 错题复盘 | Day11 (06/19 周五)
-DESCRIPTION:📌 Day11 (06/19 周五)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260620T000000
+DTEND;TZID=Asia/Shanghai:20260620T020000
+DTSTAMP:20260608T091915Z
+UID:e823d4d1-b8ee-4558-bc0d-a618259e960c
+SUMMARY:📝 WFD错题重练 + 阅读 | Day11 (06/19 周五)
+DESCRIPTION:📌 Day11 (06/19 周五)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 FIB-R 8题 + RO 10题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260620T020000
+DTEND;TZID=Asia/Shanghai:20260620T030000
+DTSTAMP:20260608T091915Z
+UID:f838a401-a525-4f77-bbf9-3a280164d171
+SUMMARY:📋 错题复盘 + 生词复习 | Day11 (06/19 周五)
+DESCRIPTION:📌 Day11 (06/19 周五)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 28题 | SST 5题 | SWT SWT 5题\n  WE 1篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260620T140000
-DTEND;TZID=Asia/Shanghai:20260620T150000
-DTSTAMP:20260608T082346Z
-UID:aa15dee6-dce2-4e19-861b-eaab690db75c
-SUMMARY:🗣 口语热身 RA+RS | Day12 (06/20 周六)
-DESCRIPTION:📌 Day12 (06/20 周六)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260620T153000
+DTSTAMP:20260608T091915Z
+UID:bb37fcfe-e203-4856-9daa-5722fd62055f
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day12 (06/20 周六)
+DESCRIPTION:📌 Day12 (06/20 周六)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260620T150000
-DTEND;TZID=Asia/Shanghai:20260620T173000
-DTSTAMP:20260608T082346Z
-UID:46ad134d-552b-4e15-b4ef-d4a38ef7e6f7
+DTSTART;TZID=Asia/Shanghai:20260620T153000
+DTEND;TZID=Asia/Shanghai:20260620T180000
+DTSTAMP:20260608T091915Z
+UID:e3f265c6-f566-45f2-97c9-977789abcf8f
 SUMMARY:📝 WFD 28题 + SWT 5题 | Day12 (06/20 周六)
-DESCRIPTION:📌 Day12 (06/20 周六)\n\nWFD (Write From Dictation) 28题 (二刷)\nSWT (Summarize Written Text) SWT 5题\n\n总进度: WFD 337/195 ✓一刷
+DESCRIPTION:📌 Day12 (06/20 周六)\n\nWFD (Write From Dictation) 28题 (二刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 337/195\n\nSWT (Summarize Written Text) SWT 5题\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260620T180000
-DTEND;TZID=Asia/Shanghai:20260620T200000
-DTSTAMP:20260608T082346Z
-UID:82d11c3b-e145-440d-a254-8fc3681d785c
+DTSTART;TZID=Asia/Shanghai:20260620T190000
+DTEND;TZID=Asia/Shanghai:20260620T210000
+DTSTAMP:20260608T091915Z
+UID:b9d6f55d-3fd5-42ec-9544-b3ccad359412
 SUMMARY:🎧 SST 5题 + WE 1篇 | Day12 (06/20 周六)
-DESCRIPTION:📌 Day12 (06/20 周六)\n\nSST (Summarize Spoken Text) 5题\nWE Essay 1篇（话题: 健康）
+DESCRIPTION:📌 Day12 (06/20 周六)\n\nSST (Summarize Spoken Text) 5题\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE Essay 1篇（话题: 健康）\n  · 套用万能模板\n  · 计时18-20分钟/篇\n  · 留2分钟检查拼写
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260620T203000
-DTEND;TZID=Asia/Shanghai:20260620T220000
-DTSTAMP:20260608T082346Z
-UID:a9fdb64d-dc1d-483c-817d-5e7943fe4415
-SUMMARY:📖 阅读 + DI/RL | Day12 (06/20 周六)
-DESCRIPTION:📌 Day12 (06/20 周六)\n\nFIB-RW 10题 + RO 8题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260620T213000
+DTEND;TZID=Asia/Shanghai:20260620T230000
+DTSTAMP:20260608T091915Z
+UID:e7eab586-5ad4-41a2-b620-ec8b228b433b
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day12 (06/20 周六)
+DESCRIPTION:📌 Day12 (06/20 周六)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260620T220000
-DTEND;TZID=Asia/Shanghai:20260620T223000
-DTSTAMP:20260608T082346Z
-UID:81cba452-ecc4-4fbd-85ff-6e2338f66ad7
-SUMMARY:📋 错题复盘 | Day12 (06/20 周六)
-DESCRIPTION:📌 Day12 (06/20 周六)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260621T000000
+DTEND;TZID=Asia/Shanghai:20260621T020000
+DTSTAMP:20260608T091915Z
+UID:23c46af5-7b92-4854-be02-05fbaa60a5d7
+SUMMARY:📝 WFD错题重练 + 阅读 | Day12 (06/20 周六)
+DESCRIPTION:📌 Day12 (06/20 周六)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 RO 10题 + FIB-RW 8题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260621T020000
+DTEND;TZID=Asia/Shanghai:20260621T030000
+DTSTAMP:20260608T091915Z
+UID:7a7c4997-f5d1-4bef-b4fa-b8f04b538031
+SUMMARY:📋 错题复盘 + 生词复习 | Day12 (06/20 周六)
+DESCRIPTION:📌 Day12 (06/20 周六)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 28题 | SST 5题 | SWT SWT 5题\n  WE 1篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260621T140000
-DTEND;TZID=Asia/Shanghai:20260621T150000
-DTSTAMP:20260608T082346Z
-UID:01b95558-c24a-4e2e-af79-e9e3513554f4
-SUMMARY:🗣 口语热身 RA+RS | Day13 (06/21 周日)
-DESCRIPTION:📌 Day13 (06/21 周日)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260621T153000
+DTSTAMP:20260608T091915Z
+UID:c26f1ed2-64fe-48fd-aeb6-153efdec822e
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day13 (06/21 周日)
+DESCRIPTION:📌 Day13 (06/21 周日)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260621T150000
-DTEND;TZID=Asia/Shanghai:20260621T173000
-DTSTAMP:20260608T082346Z
-UID:8243fcf1-1d17-4f67-a886-b643c325e0a6
+DTSTART;TZID=Asia/Shanghai:20260621T153000
+DTEND;TZID=Asia/Shanghai:20260621T180000
+DTSTAMP:20260608T091915Z
+UID:467761bb-8be1-4def-95bd-1dbdce7886c9
 SUMMARY:📝 WFD 28题 + SWT 5题 | Day13 (06/21 周日)
-DESCRIPTION:📌 Day13 (06/21 周日)\n\nWFD (Write From Dictation) 28题 (二刷)\nSWT (Summarize Written Text) SWT 5题\n\n总进度: WFD 365/195 ✓一刷
+DESCRIPTION:📌 Day13 (06/21 周日)\n\nWFD (Write From Dictation) 28题 (二刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 365/195\n\nSWT (Summarize Written Text) SWT 5题\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260621T180000
-DTEND;TZID=Asia/Shanghai:20260621T200000
-DTSTAMP:20260608T082346Z
-UID:164e889e-8373-4dd9-a7ad-3f1a29758f84
+DTSTART;TZID=Asia/Shanghai:20260621T190000
+DTEND;TZID=Asia/Shanghai:20260621T210000
+DTSTAMP:20260608T091915Z
+UID:4e4d2a5b-761f-46d5-bef5-3f052dbbd5a4
 SUMMARY:🎧 SST 5题 + WE 2篇 | Day13 (06/21 周日)
-DESCRIPTION:📌 Day13 (06/21 周日)\n\nSST (Summarize Spoken Text) 5题\nWE Essay 2篇（话题: 社会）
+DESCRIPTION:📌 Day13 (06/21 周日)\n\nSST (Summarize Spoken Text) 5题\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE Essay 2篇（话题: 社会）\n  · 套用万能模板\n  · 计时18-20分钟/篇\n  · 留2分钟检查拼写
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260621T203000
-DTEND;TZID=Asia/Shanghai:20260621T220000
-DTSTAMP:20260608T082346Z
-UID:0a7a18bf-0252-4012-a8aa-84d34fa1e4a0
-SUMMARY:📖 阅读 + DI/RL | Day13 (06/21 周日)
-DESCRIPTION:📌 Day13 (06/21 周日)\n\nFIB-R 8题 + RO 10题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260621T213000
+DTEND;TZID=Asia/Shanghai:20260621T230000
+DTSTAMP:20260608T091915Z
+UID:5255ae4b-2014-46d6-aab1-cde5e637426d
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day13 (06/21 周日)
+DESCRIPTION:📌 Day13 (06/21 周日)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260621T220000
-DTEND;TZID=Asia/Shanghai:20260621T223000
-DTSTAMP:20260608T082346Z
-UID:529a6947-0f4e-4801-817e-1970034a7c37
-SUMMARY:📋 错题复盘 | Day13 (06/21 周日)
-DESCRIPTION:📌 Day13 (06/21 周日)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260622T000000
+DTEND;TZID=Asia/Shanghai:20260622T020000
+DTSTAMP:20260608T091915Z
+UID:9f4b3169-a0ed-482c-bb4d-627e31893d31
+SUMMARY:📝 WFD错题重练 + 阅读 | Day13 (06/21 周日)
+DESCRIPTION:📌 Day13 (06/21 周日)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 FIB-R 8题 + RO 10题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260622T020000
+DTEND;TZID=Asia/Shanghai:20260622T030000
+DTSTAMP:20260608T091915Z
+UID:4b7f1524-7b48-4459-93c8-ab16ec52abd1
+SUMMARY:📋 错题复盘 + 生词复习 | Day13 (06/21 周日)
+DESCRIPTION:📌 Day13 (06/21 周日)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 28题 | SST 5题 | SWT SWT 5题\n  WE 2篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260622T140000
-DTEND;TZID=Asia/Shanghai:20260622T150000
-DTSTAMP:20260608T082346Z
-UID:2446aa8f-e172-44e1-9685-772c28ea1968
-SUMMARY:🗣 口语热身 RA+RS | Day14 (06/22 周一)
-DESCRIPTION:📌 Day14 (06/22 周一)\n🎉 WFD二刷完成 (390/195)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260622T143000
+DTSTAMP:20260608T091915Z
+UID:1461d0a0-d7bb-437b-b828-540eb4b6fa8e
+SUMMARY:🗣 模考热身 RA+RS | Day14 (06/22 周一)
+DESCRIPTION:📌 Day14 (06/22 周一) - 模考②\n\nRA 3篇（轻度）\nRS 20句\n\n准备进入模考状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260622T150000
-DTEND;TZID=Asia/Shanghai:20260622T180000
-DTSTAMP:20260608T082346Z
-UID:542c80cd-5294-40aa-b1a4-712d179b6f6e
-SUMMARY:🧪 模考② 模考 | Day14 (06/22 周一)
-DESCRIPTION:📌 Day14 (06/22 周一) - 模考日\n\n完整模考 3小时 (猩际/官方模考卷)\n模拟真实考试环境，中间不休息
+DTSTART;TZID=Asia/Shanghai:20260622T143000
+DTEND;TZID=Asia/Shanghai:20260622T173000
+DTSTAMP:20260608T091915Z
+UID:a8cf449c-c229-471d-bb53-bd8ebfaab2ef
+SUMMARY:🧪 模考② 完整模考 | Day14 (06/22 周一)
+DESCRIPTION:📌 Day14 (06/22 周一) - 模考日\n\n完整模考 3小时\n猩际/官方模考卷\n模拟真实环境，中间不休息
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260622T183000
 DTEND;TZID=Asia/Shanghai:20260622T200000
-DTSTAMP:20260608T082346Z
-UID:40070f48-1286-4479-b7c3-9a966b889075
-SUMMARY:📊 模考分析 | Day14 (06/22 周一)
-DESCRIPTION:📌 Day14 (06/22 周一)\n\n逐题分析模考结果\n记录每模块得分和失分原因\n\nWFD 25题 + SST 3题
+DTSTAMP:20260608T091915Z
+UID:6711cb47-2219-4020-bae8-fdc61f0969a3
+SUMMARY:📊 模考逐题分析 | Day14 (06/22 周一)
+DESCRIPTION:📌 Day14 (06/22 周一)\n\n逐题分析模考结果\n记录每模块得分和失分原因
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260622T203000
-DTEND;TZID=Asia/Shanghai:20260622T220000
-DTSTAMP:20260608T082346Z
-UID:6779f28e-f378-40fd-9c69-1758ff3f8300
-SUMMARY:📖 阅读 + 模板保温 | Day14 (06/22 周一)
-DESCRIPTION:📌 Day14 (06/22 周一)\n\nFIB-RW 8题 + RO 5题\nDI/RL 模板练习各3题\n错题复盘
-END:VEVENT
-
-BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260622T220000
+DTSTART;TZID=Asia/Shanghai:20260622T210000
 DTEND;TZID=Asia/Shanghai:20260622T223000
-DTSTAMP:20260608T082346Z
-UID:c36fad49-b5fa-4387-8b1e-eab46ee5f391
+DTSTAMP:20260608T091915Z
+UID:c838d5d1-fee1-46d3-a410-715424a96971
+SUMMARY:🔧 弱项突破 + DI/FIB | Day14 (06/22 周一)
+DESCRIPTION:📌 Day14 (06/22 周一)\n\n根据模考结果专项补弱\nDI 5道\nFIB 3篇
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260623T000000
+DTEND;TZID=Asia/Shanghai:20260623T020000
+DTSTAMP:20260608T091915Z
+UID:99997e16-64d3-4547-be4e-3c5d349443d4
+SUMMARY:📝 WFD错题重练 | Day14 (06/22 周一)
+DESCRIPTION:📌 Day14 (06/22 周一)\n\nWFD 25题（错题优先）\nSST 3题
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260623T020000
+DTEND;TZID=Asia/Shanghai:20260623T030000
+DTSTAMP:20260608T091915Z
+UID:30ab0a43-78b9-4092-a391-40e82815e3c0
 SUMMARY:📋 错题复盘 | Day14 (06/22 周一)
 DESCRIPTION:📌 Day14 (06/22 周一)\n\n当日错题复习\nWFD错句重练\n生词回顾
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260623T140000
-DTEND;TZID=Asia/Shanghai:20260623T150000
-DTSTAMP:20260608T082346Z
-UID:1cdfec91-254c-45c0-a412-15ce20981381
-SUMMARY:🗣 口语热身 RA+RS | Day15 (06/23 周二)
-DESCRIPTION:📌 Day15 (06/23 周二)\n🎉 SST一刷完成 (67/67)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260623T153000
+DTSTAMP:20260608T091915Z
+UID:76113f3d-a5be-45d4-af8c-a8be40d817b7
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day15 (06/23 周二)
+DESCRIPTION:📌 Day15 (06/23 周二)\n🎉 SST一刷完成 (67/67)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260623T150000
-DTEND;TZID=Asia/Shanghai:20260623T173000
-DTSTAMP:20260608T082346Z
-UID:025b71a5-0897-4506-b754-72ac380b3f68
+DTSTART;TZID=Asia/Shanghai:20260623T153000
+DTEND;TZID=Asia/Shanghai:20260623T180000
+DTSTAMP:20260608T091915Z
+UID:b5c80fb5-9e28-4e14-93e5-974d3631f7e6
 SUMMARY:📝 WFD 35题 + SWT 7题 | Day15 (06/23 周二)
-DESCRIPTION:📌 Day15 (06/23 周二)\n🎉 SST一刷完成 (67/67)\n\nWFD (Write From Dictation) 35题 (三刷)\nSWT (Summarize Written Text) SWT 7题\n\n总进度: WFD 425/195 ✓一刷
+DESCRIPTION:📌 Day15 (06/23 周二)\n\nWFD (Write From Dictation) 35题 (三刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 425/195\n\nSWT (Summarize Written Text) SWT 7题\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260623T180000
-DTEND;TZID=Asia/Shanghai:20260623T200000
-DTSTAMP:20260608T082346Z
-UID:1b1d9e06-f64e-437b-95f1-09deb20cfcc1
+DTSTART;TZID=Asia/Shanghai:20260623T190000
+DTEND;TZID=Asia/Shanghai:20260623T210000
+DTSTAMP:20260608T091915Z
+UID:57da4c20-4f30-4261-811f-274cc98f1176
 SUMMARY:🎧 SST 5题 + WE 2篇 | Day15 (06/23 周二)
-DESCRIPTION:📌 Day15 (06/23 周二)\n\nSST (Summarize Spoken Text) 5题 (二刷重点篇)\nWE Essay 2篇（话题: 文化）
+DESCRIPTION:📌 Day15 (06/23 周二)\n\nSST (Summarize Spoken Text) 5题 (二刷重点篇)\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE Essay 2篇（话题: 文化）\n  · 套用万能模板\n  · 计时18-20分钟/篇\n  · 留2分钟检查拼写
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260623T203000
-DTEND;TZID=Asia/Shanghai:20260623T220000
-DTSTAMP:20260608T082346Z
-UID:13954cd4-58cd-4e3a-a449-17d928ce5103
-SUMMARY:📖 阅读 + DI/RL | Day15 (06/23 周二)
-DESCRIPTION:📌 Day15 (06/23 周二)\n\nFIB-R 8题 + RO 10题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260623T213000
+DTEND;TZID=Asia/Shanghai:20260623T230000
+DTSTAMP:20260608T091915Z
+UID:5daddbc9-f252-4af4-8f50-14ced4bd0089
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day15 (06/23 周二)
+DESCRIPTION:📌 Day15 (06/23 周二)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260623T220000
-DTEND;TZID=Asia/Shanghai:20260623T223000
-DTSTAMP:20260608T082346Z
-UID:ce44957e-5bb9-4dc0-99b5-6f262a504ea1
-SUMMARY:📋 错题复盘 | Day15 (06/23 周二)
-DESCRIPTION:📌 Day15 (06/23 周二)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260624T000000
+DTEND;TZID=Asia/Shanghai:20260624T020000
+DTSTAMP:20260608T091915Z
+UID:5dac2ef2-8fc7-4482-9800-0b3bf15ac206
+SUMMARY:📝 WFD错题重练 + 阅读 | Day15 (06/23 周二)
+DESCRIPTION:📌 Day15 (06/23 周二)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 FIB-R 8题 + RO 10题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260624T020000
+DTEND;TZID=Asia/Shanghai:20260624T030000
+DTSTAMP:20260608T091915Z
+UID:15448988-682b-490e-8beb-67ec3c036865
+SUMMARY:📋 错题复盘 + 生词复习 | Day15 (06/23 周二)
+DESCRIPTION:📌 Day15 (06/23 周二)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 35题 | SST 5题 | SWT SWT 7题\n  WE 2篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260624T140000
-DTEND;TZID=Asia/Shanghai:20260624T150000
-DTSTAMP:20260608T082346Z
-UID:0e73cc9e-beb6-4b48-bad4-5bb2d47e5f20
-SUMMARY:🗣 口语热身 RA+RS | Day16 (06/24 周三)
-DESCRIPTION:📌 Day16 (06/24 周三)\n🎉 SWT一刷完成 (75/75)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260624T153000
+DTSTAMP:20260608T091915Z
+UID:53ec9ee4-148e-4b05-ba2c-36a2f2de2ef0
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day16 (06/24 周三)
+DESCRIPTION:📌 Day16 (06/24 周三)\n🎉 SWT一刷完成 (75/75)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260624T150000
-DTEND;TZID=Asia/Shanghai:20260624T173000
-DTSTAMP:20260608T082346Z
-UID:463a9f66-6b51-411f-afcd-f7893f59bba3
+DTSTART;TZID=Asia/Shanghai:20260624T153000
+DTEND;TZID=Asia/Shanghai:20260624T180000
+DTSTAMP:20260608T091915Z
+UID:c1febca3-93b2-4a13-a450-8536a2eb9484
 SUMMARY:📝 WFD 40题 + SWT 5题 | Day16 (06/24 周三)
-DESCRIPTION:📌 Day16 (06/24 周三)\n🎉 SWT一刷完成 (75/75)\n\nWFD (Write From Dictation) 40题 (三刷)\nSWT (Summarize Written Text) SWT 5题\n\n总进度: WFD 465/195 ✓一刷
+DESCRIPTION:📌 Day16 (06/24 周三)\n\nWFD (Write From Dictation) 40题 (三刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 465/195\n\nSWT (Summarize Written Text) SWT 5题\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260624T180000
-DTEND;TZID=Asia/Shanghai:20260624T200000
-DTSTAMP:20260608T082346Z
-UID:e1f3bf96-ae10-4f2f-b186-55a504ef06e1
+DTSTART;TZID=Asia/Shanghai:20260624T190000
+DTEND;TZID=Asia/Shanghai:20260624T210000
+DTSTAMP:20260608T091915Z
+UID:7dff826c-7c4e-4f41-b3a4-511585151f7a
 SUMMARY:🎧 SST 8题 + WE 1篇 | Day16 (06/24 周三)
-DESCRIPTION:📌 Day16 (06/24 周三)\n\nSST (Summarize Spoken Text) 8题 (二刷重点篇)\nWE Essay 1篇（话题: 媒体）
+DESCRIPTION:📌 Day16 (06/24 周三)\n\nSST (Summarize Spoken Text) 8题 (二刷重点篇)\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE Essay 1篇（话题: 媒体）\n  · 套用万能模板\n  · 计时18-20分钟/篇\n  · 留2分钟检查拼写
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260624T203000
-DTEND;TZID=Asia/Shanghai:20260624T220000
-DTSTAMP:20260608T082346Z
-UID:c21b143e-8b8a-4dec-970c-9d55b4d13989
-SUMMARY:📖 阅读 + DI/RL | Day16 (06/24 周三)
-DESCRIPTION:📌 Day16 (06/24 周三)\n\nFIB-RW 10题 + RO 8题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260624T213000
+DTEND;TZID=Asia/Shanghai:20260624T230000
+DTSTAMP:20260608T091915Z
+UID:a78af316-95cb-4cf3-818b-4a5104ef2c91
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day16 (06/24 周三)
+DESCRIPTION:📌 Day16 (06/24 周三)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260624T220000
-DTEND;TZID=Asia/Shanghai:20260624T223000
-DTSTAMP:20260608T082346Z
-UID:b87eae98-9841-4016-a92d-397c1c6046aa
-SUMMARY:📋 错题复盘 | Day16 (06/24 周三)
-DESCRIPTION:📌 Day16 (06/24 周三)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260625T000000
+DTEND;TZID=Asia/Shanghai:20260625T020000
+DTSTAMP:20260608T091915Z
+UID:cc5c7512-28d6-448e-bb83-87cdedfbaf7d
+SUMMARY:📝 WFD错题重练 + 阅读 | Day16 (06/24 周三)
+DESCRIPTION:📌 Day16 (06/24 周三)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 RO 10题 + FIB-RW 8题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260625T020000
+DTEND;TZID=Asia/Shanghai:20260625T030000
+DTSTAMP:20260608T091915Z
+UID:cfdb65d4-8ed7-4261-ad55-b73e0a535f80
+SUMMARY:📋 错题复盘 + 生词复习 | Day16 (06/24 周三)
+DESCRIPTION:📌 Day16 (06/24 周三)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 40题 | SST 8题 | SWT SWT 5题\n  WE 1篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260625T140000
-DTEND;TZID=Asia/Shanghai:20260625T150000
-DTSTAMP:20260608T082346Z
-UID:aec762de-364a-4040-a8c4-f107d088f298
-SUMMARY:🗣 口语热身 RA+RS | Day17 (06/25 周四)
-DESCRIPTION:📌 Day17 (06/25 周四)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260625T153000
+DTSTAMP:20260608T091915Z
+UID:6ec4f4bd-a595-4b11-93f0-0086b2d12391
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day17 (06/25 周四)
+DESCRIPTION:📌 Day17 (06/25 周四)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260625T150000
-DTEND;TZID=Asia/Shanghai:20260625T173000
-DTSTAMP:20260608T082346Z
-UID:da70b5f9-75fa-4599-9764-89901cdf19c8
+DTSTART;TZID=Asia/Shanghai:20260625T153000
+DTEND;TZID=Asia/Shanghai:20260625T180000
+DTSTAMP:20260608T091915Z
+UID:f07f51b3-4559-4ec5-a9f3-2ea5c422e238
 SUMMARY:📝 WFD 40题 + SWT 错题回顾 | Day17 (06/25 周四)
-DESCRIPTION:📌 Day17 (06/25 周四)\n\nWFD (Write From Dictation) 40题 (三刷)\nSWT (Summarize Written Text) SWT 错题回顾\n\n总进度: WFD 505/195 ✓一刷
+DESCRIPTION:📌 Day17 (06/25 周四)\n\nWFD (Write From Dictation) 40题 (三刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 505/195\n\nSWT (Summarize Written Text) SWT 错题回顾\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260625T180000
-DTEND;TZID=Asia/Shanghai:20260625T200000
-DTSTAMP:20260608T082346Z
-UID:57adf8a9-6e6a-4ad7-b1ff-00355b603e14
+DTSTART;TZID=Asia/Shanghai:20260625T190000
+DTEND;TZID=Asia/Shanghai:20260625T210000
+DTSTAMP:20260608T091915Z
+UID:8e823f1e-cc7f-49b7-aca4-5a508bef966b
 SUMMARY:🎧 SST 8题 + WE 2篇 | Day17 (06/25 周四)
-DESCRIPTION:📌 Day17 (06/25 周四)\n\nSST (Summarize Spoken Text) 8题 (二刷重点篇)\nWE Essay 2篇（话题: 教育）
+DESCRIPTION:📌 Day17 (06/25 周四)\n\nSST (Summarize Spoken Text) 8题 (二刷重点篇)\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE Essay 2篇（话题: 教育）\n  · 套用万能模板\n  · 计时18-20分钟/篇\n  · 留2分钟检查拼写
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260625T203000
-DTEND;TZID=Asia/Shanghai:20260625T220000
-DTSTAMP:20260608T082346Z
-UID:948e395d-0f01-4422-8bbf-275022b3edff
-SUMMARY:📖 阅读 + DI/RL | Day17 (06/25 周四)
-DESCRIPTION:📌 Day17 (06/25 周四)\n\nFIB-R 8题 + RO 10题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260625T213000
+DTEND;TZID=Asia/Shanghai:20260625T230000
+DTSTAMP:20260608T091915Z
+UID:d9754b0f-8818-44d2-9066-5977c5641e3e
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day17 (06/25 周四)
+DESCRIPTION:📌 Day17 (06/25 周四)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260625T220000
-DTEND;TZID=Asia/Shanghai:20260625T223000
-DTSTAMP:20260608T082346Z
-UID:cddda4c8-5241-441e-ab54-ce71d9d1d7b1
-SUMMARY:📋 错题复盘 | Day17 (06/25 周四)
-DESCRIPTION:📌 Day17 (06/25 周四)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260626T000000
+DTEND;TZID=Asia/Shanghai:20260626T020000
+DTSTAMP:20260608T091915Z
+UID:b2377ccb-f4ba-4075-8363-f43cab77238c
+SUMMARY:📝 WFD错题重练 + 阅读 | Day17 (06/25 周四)
+DESCRIPTION:📌 Day17 (06/25 周四)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 FIB-R 8题 + RO 10题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260626T020000
+DTEND;TZID=Asia/Shanghai:20260626T030000
+DTSTAMP:20260608T091915Z
+UID:05f35800-991f-43da-97db-dd091fd11be2
+SUMMARY:📋 错题复盘 + 生词复习 | Day17 (06/25 周四)
+DESCRIPTION:📌 Day17 (06/25 周四)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 40题 | SST 8题 | SWT SWT 错题回顾\n  WE 2篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260626T140000
-DTEND;TZID=Asia/Shanghai:20260626T150000
-DTSTAMP:20260608T082346Z
-UID:03045b0c-0a75-46bb-8d9f-8a43d614d32b
-SUMMARY:🗣 口语热身 RA+RS | Day18 (06/26 周五)
-DESCRIPTION:📌 Day18 (06/26 周五)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260626T153000
+DTSTAMP:20260608T091915Z
+UID:1159fc39-8963-44f3-8e89-e75614c1e8e4
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day18 (06/26 周五)
+DESCRIPTION:📌 Day18 (06/26 周五)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260626T150000
-DTEND;TZID=Asia/Shanghai:20260626T173000
-DTSTAMP:20260608T082346Z
-UID:45bd5b80-372a-439a-a900-7a169b0b6857
+DTSTART;TZID=Asia/Shanghai:20260626T153000
+DTEND;TZID=Asia/Shanghai:20260626T180000
+DTSTAMP:20260608T091915Z
+UID:6decfddb-6319-4852-9301-6b7073423577
 SUMMARY:📝 WFD 40题 + SWT 错题回顾 | Day18 (06/26 周五)
-DESCRIPTION:📌 Day18 (06/26 周五)\n\nWFD (Write From Dictation) 40题 (三刷)\nSWT (Summarize Written Text) SWT 错题回顾\n\n总进度: WFD 545/195 ✓一刷
+DESCRIPTION:📌 Day18 (06/26 周五)\n\nWFD (Write From Dictation) 40题 (三刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 545/195\n\nSWT (Summarize Written Text) SWT 错题回顾\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260626T180000
-DTEND;TZID=Asia/Shanghai:20260626T200000
-DTSTAMP:20260608T082346Z
-UID:62d20b2b-a82c-4918-a133-1735e4ffbb32
+DTSTART;TZID=Asia/Shanghai:20260626T190000
+DTEND;TZID=Asia/Shanghai:20260626T210000
+DTSTAMP:20260608T091915Z
+UID:9e68e243-97dc-4fce-85c5-3e4e3ebef6ce
 SUMMARY:🎧 SST 8题 + WE 1篇 | Day18 (06/26 周五)
-DESCRIPTION:📌 Day18 (06/26 周五)\n\nSST (Summarize Spoken Text) 8题 (二刷重点篇)\nWE Essay 1篇（话题: 科技）
+DESCRIPTION:📌 Day18 (06/26 周五)\n\nSST (Summarize Spoken Text) 8题 (二刷重点篇)\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE Essay 1篇（话题: 科技）\n  · 套用万能模板\n  · 计时18-20分钟/篇\n  · 留2分钟检查拼写
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260626T203000
-DTEND;TZID=Asia/Shanghai:20260626T220000
-DTSTAMP:20260608T082346Z
-UID:2f5690e0-50cb-431c-a86d-601a2f5cc78e
-SUMMARY:📖 阅读 + DI/RL | Day18 (06/26 周五)
-DESCRIPTION:📌 Day18 (06/26 周五)\n\nFIB-RW 10题 + RO 8题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260626T213000
+DTEND;TZID=Asia/Shanghai:20260626T230000
+DTSTAMP:20260608T091915Z
+UID:ba98772d-d481-4bd0-90dc-63cdf54a9e37
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day18 (06/26 周五)
+DESCRIPTION:📌 Day18 (06/26 周五)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260626T220000
-DTEND;TZID=Asia/Shanghai:20260626T223000
-DTSTAMP:20260608T082346Z
-UID:29067e3d-7a9b-42cb-bcd8-ebf2fea64b5c
-SUMMARY:📋 错题复盘 | Day18 (06/26 周五)
-DESCRIPTION:📌 Day18 (06/26 周五)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260627T000000
+DTEND;TZID=Asia/Shanghai:20260627T020000
+DTSTAMP:20260608T091915Z
+UID:cd873569-7dbb-450c-9eb9-9f3e50c5c2cd
+SUMMARY:📝 WFD错题重练 + 阅读 | Day18 (06/26 周五)
+DESCRIPTION:📌 Day18 (06/26 周五)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 RO 10题 + FIB-RW 8题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260627T020000
+DTEND;TZID=Asia/Shanghai:20260627T030000
+DTSTAMP:20260608T091915Z
+UID:faad9ce4-65d1-457f-89fc-735fcf50d600
+SUMMARY:📋 错题复盘 + 生词复习 | Day18 (06/26 周五)
+DESCRIPTION:📌 Day18 (06/26 周五)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 40题 | SST 8题 | SWT SWT 错题回顾\n  WE 1篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260627T140000
-DTEND;TZID=Asia/Shanghai:20260627T150000
-DTSTAMP:20260608T082346Z
-UID:e037706c-39f8-4839-bf69-79855d82c4cc
-SUMMARY:🗣 口语热身 RA+RS | Day19 (06/27 周六)
-DESCRIPTION:📌 Day19 (06/27 周六)\n🎉 WFD三刷完成 (585/195)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260627T153000
+DTSTAMP:20260608T091915Z
+UID:3275db52-684e-4cb6-9b64-5dc9eb2487ce
+SUMMARY:🗣 RA 5篇 + RS 50句 | Day19 (06/27 周六)
+DESCRIPTION:📌 Day19 (06/27 周六)\n🎉 WFD三刷完成 (585/195)\n\nRA (Read Aloud) 5篇\n  · 录音对比，纠正发音和流利度\n  · 注意意群划分、重弱读\n\nRS (Repeat Sentence) 50句\n  · 抓主干（主+谓+宾）\n  · 模仿语调和重音\n\n🎯 目标：暖口醒脑，进入英语状态
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260627T150000
-DTEND;TZID=Asia/Shanghai:20260627T173000
-DTSTAMP:20260608T082346Z
-UID:ebc58ccf-0d83-4055-883b-8bf7c253a4b6
+DTSTART;TZID=Asia/Shanghai:20260627T153000
+DTEND;TZID=Asia/Shanghai:20260627T180000
+DTSTAMP:20260608T091915Z
+UID:29176e6b-8a30-402e-92f3-09324083e30b
 SUMMARY:📝 WFD 40题 + SWT 错题回顾 | Day19 (06/27 周六)
-DESCRIPTION:📌 Day19 (06/27 周六)\n🎉 WFD三刷完成 (585/195)\n\nWFD (Write From Dictation) 40题 (三刷)\nSWT (Summarize Written Text) SWT 错题回顾\n\n总进度: WFD 585/195 ✓一刷
+DESCRIPTION:📌 Day19 (06/27 周六)\n\nWFD (Write From Dictation) 40题 (三刷)\n  · 首字母法记笔记\n  · 注意拼写和单复数\n  · 累计进度: 585/195\n\nSWT (Summarize Written Text) SWT 错题回顾\n  · 模板：用 and/\; 连接主题句\n  · 限时10分钟/篇
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260627T180000
-DTEND;TZID=Asia/Shanghai:20260627T200000
-DTSTAMP:20260608T082346Z
-UID:6b0977a7-f9c3-429a-87a9-435eac6fe3b8
+DTSTART;TZID=Asia/Shanghai:20260627T190000
+DTEND;TZID=Asia/Shanghai:20260627T210000
+DTSTAMP:20260608T091915Z
+UID:89d62df8-e1bf-421b-b53a-362472c9a6b6
 SUMMARY:🎧 SST 8题 + WE 0篇 | Day19 (06/27 周六)
-DESCRIPTION:📌 Day19 (06/27 周六)\n\nSST (Summarize Spoken Text) 8题 (二刷重点篇)\nWE 模板复习/论点积累
+DESCRIPTION:📌 Day19 (06/27 周六)\n\nSST (Summarize Spoken Text) 8题 (二刷重点篇)\n  · 听2遍写总结\n  · 模板+关键词提取\n  · 注意语法和拼写\nWE 模板复习/论点积累\n  · 默写Essay模板\n  · 浏览话题论点素材
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260627T203000
-DTEND;TZID=Asia/Shanghai:20260627T220000
-DTSTAMP:20260608T082346Z
-UID:a98d0b84-6e5b-4adc-96d3-a4af5925ea70
-SUMMARY:📖 阅读 + DI/RL | Day19 (06/27 周六)
-DESCRIPTION:📌 Day19 (06/27 周六)\n\nFIB-R 8题 + RO 10题\nDI (Describe Image) 5题（模板计时）\nRL (Retell Lecture) 3题
+DTSTART;TZID=Asia/Shanghai:20260627T213000
+DTEND;TZID=Asia/Shanghai:20260627T230000
+DTSTAMP:20260608T091915Z
+UID:2177ca99-164e-4293-ad81-6a1b08ea75b2
+SUMMARY:📖 DI 10道 + FIB 5篇 | Day19 (06/27 周六)
+DESCRIPTION:📌 Day19 (06/27 周六)\n\nDI (Describe Image) 10道\n  · 模板计时（25s准备+35s说）\n  · 柱/线/饼/流程/地图各2道\n\nFIB (Fill in Blanks) 5篇\n  · FIB-RW 3篇 + FIB-R 2篇\n  · 注意固定搭配和语法\n  · 积累生词和搭配
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260627T220000
-DTEND;TZID=Asia/Shanghai:20260627T223000
-DTSTAMP:20260608T082346Z
-UID:2fdc3c59-2bab-47d4-afdf-720e079b54c4
-SUMMARY:📋 错题复盘 | Day19 (06/27 周六)
-DESCRIPTION:📌 Day19 (06/27 周六)\n\nWFD 当日错句重练\n生词 + 固定搭配复习\n当日学习记录
+DTSTART;TZID=Asia/Shanghai:20260628T000000
+DTEND;TZID=Asia/Shanghai:20260628T020000
+DTSTAMP:20260608T091915Z
+UID:51ce9c8e-6cb7-4ca8-80ca-0d648f425937
+SUMMARY:📝 WFD错题重练 + 阅读 | Day19 (06/27 周六)
+DESCRIPTION:📌 Day19 (06/27 周六)\n\nWFD 错题重练\n  · 重做当日+历史错题\n  · 每句练到全对\n\n阅读专项 FIB-R 8题 + RO 10题\n  · RO: 找首句+逻辑对\n  · FIB: 上下文推理+语法判断
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260628T020000
+DTEND;TZID=Asia/Shanghai:20260628T030000
+DTSTAMP:20260608T091915Z
+UID:02033bf7-bddf-4d72-9adf-9d2e51428087
+SUMMARY:📋 错题复盘 + 生词复习 | Day19 (06/27 周六)
+DESCRIPTION:📌 Day19 (06/27 周六)\n\nWFD 今日错句最终过一遍\n生词 + 固定搭配复习\n当日学习记录\n\n📊 今日完成:\n  WFD 40题 | SST 8题 | SWT SWT 错题回顾\n  WE 0篇 | RA 5篇 | RS 50句 | DI 10道 | FIB 5篇\n\n💪 明天继续！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260628T140000
-DTEND;TZID=Asia/Shanghai:20260628T150000
-DTSTAMP:20260608T082346Z
-UID:fd3e67ff-0d7b-45f9-9c42-e65ca2e5bede
-SUMMARY:🗣 口语热身 RA+RS | Day20 (06/28 周日)
-DESCRIPTION:📌 Day20 (06/28 周日)\n\nRA (Read Aloud) 5-8篇\nRS (Repeat Sentence) 30-50句\n\n🎯 目标：暖口醒脑，进入英语状态
+DTEND;TZID=Asia/Shanghai:20260628T153000
+DTSTAMP:20260608T091915Z
+UID:604a1b7f-6cc7-415c-a213-def9276a3703
+SUMMARY:🗣 考前热身 RA+RS | Day20 (06/28 周日)
+DESCRIPTION:📌 Day20 (06/28 周日) - 考前最后一天\n\nRA 3篇（轻度热身）\nRS 20句\n\n保持语感，不过度疲劳
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260628T150000
-DTEND;TZID=Asia/Shanghai:20260628T173000
-DTSTAMP:20260608T082346Z
-UID:3cf90573-3f8c-47f5-967f-74ec564095c0
-SUMMARY:🔥 考前最后热身 | Day20 (06/28 周日)
-DESCRIPTION:📌 Day20 (06/28 周日) - 考前最后一天\n\nRA 3篇（轻度热身）\nRS 20句\n默念所有模板（DI/RL/SWT/SST/Essay）\n\n⚠️ 22:00前睡觉！
+DTSTART;TZID=Asia/Shanghai:20260628T153000
+DTEND;TZID=Asia/Shanghai:20260628T170000
+DTSTAMP:20260608T091915Z
+UID:0d4b4c3b-1c38-404a-8a31-54060453283c
+SUMMARY:📝 WFD易错句最后过一遍 | Day20 (06/28 周日)
+DESCRIPTION:📌 Day20 (06/28 周日)\n\nWFD 高频易错句最后一遍\nSST关键词快速浏览
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Shanghai:20260628T180000
-DTEND;TZID=Asia/Shanghai:20260628T193000
-DTSTAMP:20260608T082346Z
-UID:565837d6-4d54-4e73-af5d-eea6d6659b05
-SUMMARY:📋 错题浏览 + 模板默写 | Day20 (06/28 周日)
-DESCRIPTION:📌 Day20 (06/28 周日)\n\n浏览所有错题本\n全部模板默写一遍\nEssay话题论点快速回顾
+DTSTART;TZID=Asia/Shanghai:20260628T190000
+DTEND;TZID=Asia/Shanghai:20260628T203000
+DTSTAMP:20260608T091915Z
+UID:c5bd1fcf-0bde-4078-a1cf-6f56644c3e0a
+SUMMARY:📋 模板默写 + 错题浏览 | Day20 (06/28 周日)
+DESCRIPTION:📌 Day20 (06/28 周日)\n\n全部模板默写一遍 (DI/RL/SWT/SST/Essay)\n浏览错题本\nEssay话题论点快速回顾
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260628T210000
-DTEND;TZID=Asia/Shanghai:20260628T213000
-DTSTAMP:20260608T082346Z
-UID:f9503920-a41d-4e08-ab5a-8a39a15376a4
-SUMMARY:😴 早睡 | Day20 (06/28 周日)
-DESCRIPTION:📌 Day20 (06/28 周日)\n\n收拾考试用品\n22:00前睡觉\n保证充足睡眠
+DTEND;TZID=Asia/Shanghai:20260628T220000
+DTSTAMP:20260608T091915Z
+UID:ed8d20a4-8fca-48cd-81dc-6d8560f201dd
+SUMMARY:😴 收拾 + 早睡 | Day20 (06/28 周日)
+DESCRIPTION:📌 Day20 (06/28 周日)\n\n收拾考试用品\n22:00前睡觉\n保证充足睡眠！
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260630T073000
 DTEND;TZID=Asia/Shanghai:20260630T080000
-DTSTAMP:20260608T082346Z
-UID:3ed7619d-0ae1-4257-aab1-6a251d9b133e
+DTSTAMP:20260608T091915Z
+UID:440d6492-f575-406c-9aac-9193d5c4bad5
 SUMMARY:🎧 考前热耳
 DESCRIPTION:听10分钟英语新闻/播客\n让耳朵进入英语状态
 END:VEVENT
@@ -918,8 +1089,8 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260630T080000
 DTEND;TZID=Asia/Shanghai:20260630T083000
-DTSTAMP:20260608T082346Z
-UID:2f28e355-fa95-4fa3-af54-d122bf9578d8
+DTSTAMP:20260608T091915Z
+UID:ff4833da-86b7-4d44-9eda-ced0de2e5ec1
 SUMMARY:🗣 考前热身
 DESCRIPTION:RA 3篇（轻微热身）\nRS 20句\n默念所有模板
 END:VEVENT
@@ -927,8 +1098,8 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260630T090000
 DTEND;TZID=Asia/Shanghai:20260630T120000
-DTSTAMP:20260608T082346Z
-UID:da51bc21-2c57-4d95-a395-383d609e543e
+DTSTAMP:20260608T091915Z
+UID:2493d332-d413-468c-a31d-a2f201bcdb00
 SUMMARY:🎯 PTE 考试！
 DESCRIPTION:目标：四个58！\n\n考试中：\n① 不纠结已过去的题\n② 写作留2分钟查拼写\n③ WFD仔细听，首字母记\n④ 保持节奏，相信自己的准备！\n\n💪 你已经刷了585道WFD，67篇SST，75篇SWT\n你可以的！
 END:VEVENT
@@ -936,19 +1107,46 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260630T120000
 DTEND;TZID=Asia/Shanghai:20260630T130000
-DTSTAMP:20260608T082346Z
-UID:e71ff53a-5be7-42a6-9c88-75b1ddf793ce
+DTSTAMP:20260608T091915Z
+UID:5093e633-1e63-4899-a23e-903585bccf34
 SUMMARY:🎉 解放！
 DESCRIPTION:无论结果如何，你已经尽力了！\n好好吃一顿，放松一下 🎉
 END:VEVENT
 
 BEGIN:VEVENT
 DTSTART;TZID=Asia/Shanghai:20260629T140000
+DTEND;TZID=Asia/Shanghai:20260629T153000
+DTSTAMP:20260608T091915Z
+UID:3a640a91-19ed-4086-8c4c-d2b2074e4b72
+SUMMARY:🗣 RA 3篇 + RS 20句 | 考前缓冲
+DESCRIPTION:📌 考前缓冲日\n\nRA 3篇（轻度）\nRS 20句\n\n保持语感，不过度疲劳
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260629T153000
 DTEND;TZID=Asia/Shanghai:20260629T180000
-DTSTAMP:20260608T082346Z
-UID:e0914464-8128-4e7e-8a42-00126e060671
-SUMMARY:🔋 考前缓冲日 - 自由复习
-DESCRIPTION:考前最后一天自由安排\n\n建议：\n- WFD易错句最后过一遍\n- 模板默写\n- 轻松复习，不过度疲劳\n- 晚上10点前睡觉
+DTSTAMP:20260608T091915Z
+UID:58bc119b-90b1-40bc-a90e-8ec2875793e2
+SUMMARY:📝 WFD易错句 + SST关键词 | 考前缓冲
+DESCRIPTION:📌 考前缓冲日\n\nWFD 高频易错句最后过一遍\nSST 67篇关键词快速浏览\nSWT 错题回顾
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260629T190000
+DTEND;TZID=Asia/Shanghai:20260629T210000
+DTSTAMP:20260608T091915Z
+UID:227eb13a-2a89-4c9f-9077-8f15faaba3b0
+SUMMARY:📋 模板默写 + 错题浏览 | 考前缓冲
+DESCRIPTION:📌 考前缓冲日\n\n全部模板默写一遍\n浏览错题本\nEssay话题论点快速回顾
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Shanghai:20260629T213000
+DTEND;TZID=Asia/Shanghai:20260629T220000
+DTSTAMP:20260608T091915Z
+UID:ad9a0d2c-ac54-4e95-ae05-bb5371139c87
+SUMMARY:😴 收拾 + 早睡 | 考前缓冲
+DESCRIPTION:📌 考前缓冲日\n\n收拾考试用品\n深呼吸，放轻松\n22:00前睡觉！
 END:VEVENT
 
 END:VCALENDAR
